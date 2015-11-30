@@ -1164,7 +1164,96 @@ Object.defineProperty(person, "name", {
 alert(person.name);//"Nicholas"
 person.name = "Greg";
 alert(person.name);//"Nicholas"
-
+var person = {};
+Object.defineProperty(person, "name", {
+	configurable: false,//不能从对象删除属性
+	value: "Nicholas"
+});
+alert(person.name);//"Nicholas"
+delete person.name;
+alert(person.name);//"Nicholas"
+/*
+ * 定义多个属性Object.Properties()。这个方法接受两个对象参数：
+ * 第一个对象是要添加和修改其属性的对象，第二个对象的属性与第一个对象中要添加或修改的属性一一对应
+ */
+var book = {};
+Object.defineProperties(book, {
+	_year: {
+		value: 2004;
+	},
+	edition: {
+		value: 1;
+	},
+	year: {
+		get: function() {
+			return this._year;
+		},
+		set: function(newValue) {
+			if (newValue > 2004) {
+				this._year = newValue;
+				this.edition += newValue - 2004;
+			}
+		}
+	}
+});
+/*
+ * Object.getOwnPropertyDescriptor()方法可以取得给定属性的描述符
+ * 这个方法接受两个参数：属性所在的对象和要读取其属性描述的属性名称。
+ * 返回值是一个对象，如果是访问器属性，这个对象属性有configurable、enumerable、get和set；
+ * 如果是数据属性，这个对象属性有configurable、enumerable、writable和value
+ */
+var book = {};
+Object.defineProperties(book, {
+	_year: {
+		value: 2004;
+	},
+	edition: {
+		value: 1
+	},
+	year: {
+		get: function(){
+			return this._year;
+		},
+		set:function(newValue) {
+			if (newValue > 2004) {
+				this._year = newValue;
+				this.edition += newValue - 2004;
+			}
+		}
+	}
+});
+var descriptor = Object.getOwnPropertyDescriptor(book, "_year");
+alert(descriptor.value);//2004
+alert(descriptor.configurable);//false
+alert(typeof descriptor.get);//"undefined"
+var descriptor = Object.getOwnPropertyDescriptor(book, "year");
+alert(descriptor.value);//undefined
+alert(descriptor.enumerable);//false
+alert(typeof descriptor.get);//"function"
+//工厂模式封装函数
+function createPerson(name, age, job) {
+	var o = new Object();
+	o.name = name;
+	o.age = age;
+	o.job = job;
+	o.sayName = function() {
+		alert(this.name);
+	};
+	return o;
+}
+var person1 = createPerson("Nicholas", 29, "Software Engineer");
+var person2 = createPerson("Greg", 27, "Doctor"); 
+//构造函数模式
+function Person(name, age, job) {
+	this.name = name;
+	this.age = age;
+	this.job = job;
+	this.sayName = function() {
+		alert(this.name);
+	};
+}
+var person1 = new Person("Nicholas", 29, "Software Engineer");
+var person2 = new Person("Greg", 27, "Doctor");
 
 
 
