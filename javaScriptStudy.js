@@ -1254,13 +1254,51 @@ function Person(name, age, job) {
 }
 var person1 = new Person("Nicholas", 29, "Software Engineer");
 var person2 = new Person("Greg", 27, "Doctor");
-
-
-
-
-
-
-
+/*
+ * 原型模式
+ * 创建的每个函数都有一个prototype(原型)属性，这个属性是一个指针，指向一个对象，而这个对象的用途是包含可以由特定类型的所有实例共享的属性和方法
+ * 使用原型对象的好处是可以让所有对象实例共享它所包含的属性和方法，不必在构造函数中定义对象实例的信息，而是将这些信息直接添加到原型对象中
+ */
+function Person() {};
+Person.prototype.name = "Nicholas";
+Person.prototype.age = 29;
+Person.prototype.job = "Software Engineer";
+Person.prototype.sayName = function() {
+	alert(this.name);
+};
+var person1 = new Person();
+person1.sayName();//"Nicholas"
+var person2 = new Person();
+person2.sayName();//"Nicholas"
+alert(person1.sayName == person2.sayName);//true
+alert(Person.prototype.isPrototypeOf(person1));//true
+alert(Person.prototype.isPrototypeOf(person2));//true
+alert(Object.getPrototypeOf(person1) == Person.prototype);//true
+alert(Object.getPrototypeOf(person1).name);//"Nicholas"
+person1.name = "Greg";
+alert(person1.name);//"Greg"来自实例，屏蔽了原型中的Nicholas
+alert(person2.name);//"Nicholas"
+delete person1.name;
+alert(prson1.name);//"Nicholas"来自原型
+//hasOwnProperty()方法可以检测一个属性是存在于实例中还是存在于原型中
+function Person() {};
+Person.prototype.name = "Nicholas";
+Person.prototype.age = 29;
+Person.prototype.job = "Software Engineer";
+Person.prototype.sayName =function() {
+	alert(this.name);
+};
+var person1 = new Person();
+var person2 = new Person();
+alert(person1.hasOwnProperty("name"));//false
+person1.name = "Greg";
+alert(person1.name);//"Greg"来自实例
+alert(person1.hasOwnProperty("name"));//true
+alert(person2.name);//"Nicholas"来自原型
+alert(person2.hasOwnProperty("name"));//false
+delete person1.name;
+alert(person1.name);//"Nicholas"
+alert(person1.hasOwnProperty("name"));//false
 
 
 
