@@ -89,8 +89,10 @@ var newValue = oldValue >>> 5;//二进制1000000变为000001000000值不变
 var oldValue = -64;//二进制11111111111111111111111111000000
 var newValue = oldValue >>> 5;//变为0000011111111111111111111111111000000，值为134217726
 /*
- * 逻辑非!,操作数时一个对象返回false，操作数是一个空字符串返回true，操作数是一个非空字符串返回false 操作数是数值0返回true，
- * 操作数是 任意非0数值(包括Infinity)返回false，操作数是null返回true，操作数是NaN返回true，操作数是undefined返回true
+ * 逻辑非!,操作数时一个对象返回false，操作数是一个空字符串返回true，
+ * 操作数是一个非空字符串返回false 操作数是数值0返回true，
+ * 操作数是 任意非0数值(包括Infinity)返回false，操作数是null返回true，
+ * 操作数是NaN返回true，操作数是undefined返回true
  */
 alert(!false);//true
 alert(!"blue");//false
@@ -98,7 +100,10 @@ alert(!0);//true
 alert(!NaN);//true
 alert(!"");//true
 alert(!12345);//false
-//逻辑非操作符也可以用于将一个值转换为与其对应的布尔值。!!第一个逻辑非操作返回一个布尔值，第二个对布尔值取反，相当于使用Boolean()函数
+/*
+ * 逻辑非操作符也可以用于将一个值转换为与其对应的布尔值。
+ * !!第一个逻辑非操作返回一个布尔值，第二个对布尔值取反，相当于使用Boolean()函数
+ */
 alert(!!"blue");//true
 alert(!!0);//false
 alert(!!NaN);//false
@@ -117,7 +122,8 @@ var found = true;
 var result = (found && someUndefinedVariable);//没有声明SomeUndefinedVariable
 alert(result);//由于第一个操作数为true，所以对第二个操作数取值，第二个操作数没声明，所以不会执行alert
 var found = false;
-var result = (found && someUndefinedVariable);//虽然没声明该函数，但不会发生错误，因为第一个操作数已经是false
+//虽然没声明该函数但不会发生错误因为第一个操作数已经是false
+var result = (found && someUndefinedVariable);
 alert(result);//会执行("false")
 /*
  * 逻辑或||，当且仅当两个操作数的值同为false时结果返回false
@@ -132,12 +138,13 @@ var found = true;
 var result = (found || someUndefinedVariable);//虽然没声明该函数，不会发生错误
 alert(result);//会执行("true")
 var found = false;
-var result = (found || someUndefinedVariable);//由于第一个操作数的值为false，对第二个操作数取值发生错误
+//由于第一个操作数的值为false，对第二个操作数取值发生错误
+var result = (found || someUndefinedVariable);
 alert(result);//所以这一行不会被执行
 //利用逻辑或来避免为变量赋null或undefined值
 var myObject = preferredObject || backupObject;//变量preferredObject中包含优先赋给变量myObject的值，
 /*
- * 变量backupObject负责在preferredObject中不包含有效值的情况下提供后备值。如果preferredObject的值不是null，
+ * 变量backupObject负责在preferredObject中不包含有效值的情况下提供后备值。如果preferredObject的值不是null
  * 那么它的值将被赋给myObject;如果是null，则将backupObject的值赋给myObject
  */
 //乘法 *
@@ -163,7 +170,7 @@ alert(result2);//得到字符串"55"
 var num1 = 5;
 var num2 = 10;
 var message = "The sum of 5 and 10 is " + num1 +num2;
-alert(message);//先执行前两个操作数加法，即把num1的值5转换为字符串5，再和num2的值转换为字符串10拼接，得到"The sum of 5 and 10 is 510"
+alert(message);//先执行前两个操作数加法，即把num1的值5转换为字符串5，再和num2的值转换为字符串10拼接
 var num1 = 5;
 var num2 = 10;
 var message = "The sum of 5 and 10 is " + (num1 + num2);
@@ -180,9 +187,11 @@ var result6 = 5 - null;//5，null被转换成0
  * 如果两个操作数都是数值，执行数值比较
  * 如果两个操作数都是字符串，执行数值比较
  * 如果一个操作数是数值，则将另一个操作数转换为 一个数值，然后执行数值比较
- * 如果一个操作数是对象，则调用这个对象的valueOf()方法，用得到的结果按照前面的规则执行。如果对象没有valueOf()方法，则调用toString()方法
+ * 如果一个操作数是对象，则调用这个对象的valueOf()方法，用得到的结果按照前面的规则执行。如
+ * 果对象没有valueOf()方法，则调用toString()方法
  * 如果一个操作数是布尔值，则先将其转换为数值，然后执行比较
- * 比较字符串时，实际比较的是两个字符串中对应位置的每个字符的字符编码值，由于大写字母的字符编码全部小于小写字母的字符编码，会出现下列现象：
+ * 比较字符串时，实际比较的是两个字符串中对应位置的每个字符的字符编码值，
+ * 由于大写字母的字符编码全部小于小写字母的字符编码，会出现下列现象：
  */
 var result = "Brick" < "alphabet";//true
 var result = "Brick".toLowerCase() < "alphabet".toLowerCase();//false
@@ -195,10 +204,11 @@ var result2 = NaN >= 3;//false
  * 相等操作符== !=
  * 如果有一个操作数时布尔值，则在比较相等性之前先将其转换为数值－false转换为0.而true转换为1
  * 如果一个操作数是字符串，另一个操作数是数值，在比较相等性之前先将字符串转换为数值
- * 如果一个操作数是对象，另一个操作数不是，则调用对象的valueOf()方法，用得到的基本类型按照前面的规则进行比较
- * null和undefined是相等的
+ * 如果一个操作数是对象，另一个操作数不是，则调用对象的valueOf()方法，
+ * 用得到的基本类型按照前面的规则进行比较null和undefined是相等的
  * 要比较相等性之前，不能将null和undefined转换成其他任何值
- * 如果有一个操作数是NaN，则相等操作符返回false，不相等操作符返回true，即使两个操作符都是NaN,相等操作符也返回false
+ * 如果有一个操作数是NaN，则相等操作符返回false，不相等操作符返回true，
+ * 即使两个操作符都是NaN,相等操作符也返回false
  * 如果两个操作数都是对象，则比较他们是不是同一个对象，如果都指向同一对象返回true，否则false
  */
 //全等和不全等
@@ -208,7 +218,8 @@ var result1 = ("55" != 55);//false
 var result2 = ("55" !== 55);//true
 //条件操作符
 variable = boolean_expression ? true_value : false_value;
-var max = (num1 > num2) ? num1 : num2;//如果num1大于num2(关系表达式返回true)，则将num1的值赋给max，否则将num2的值赋给max
+//如果num1大于num2(关系表达式返回true)，则将num1的值赋给max，否则将num2的值赋给max
+var max = (num1 > num2) ? num1 : num2;
 //赋值操作符 *=, /=, %=, +=, -=, <<=, >>=, >>>=
 //if 语句
 if (i > 25) {
@@ -338,7 +349,8 @@ function diff(num1, num2) {
 	}
 }
 function sayHi() {
-	alert("Hello " + arguments[0] + "," + arguments[1]);//和alert("Hello" + name + "," + message)相等
+	alert("Hello " + arguments[0] + "," + arguments[1]);
+	//和alert("Hello" + name + "," + message)相等
 }
 function howManyArgs() {
 	alert(arguments.length);
@@ -581,11 +593,13 @@ alert(colors2);//green,blue,yellow,purple
 alert(colors3);//green,blue,yellow(注意数组4(purple)并不包括进新数组)
 /*
  * splice()方法。只要用途是向数组的中部插入项。
- * 删除：可以删除任意数量的项，只需指定两个参数：要删除的第一项的位置和要删除的项数。例如splice(0,2)会删除数组中的前两项
+ * 删除：可以删除任意数量的项，只需指定两个参数：要删除的第一项的位置和要删除的项数。
+ *      例如splice(0,2)会删除数组中的前两项
  * 插入：可以向指定位置插入任意数量的项，只需提供三个参数：起始位置、0(要删除的项数)和要插入的项
- * 例如，splice(2,0,"red","green")会从当前数组的位置2开始插入字符串"red"和"green"。
- * 替换：可以向指定位置插入任意数量的项，且同时删除任意数量的项。只需指定三个参数：起始位置、要删除的项数和要插入的任意数量的项
- * 插入的项数不必于删除项数相等。例如splice(2,1,"red","green")会删除当前数组位置2的项，然后再从位置2开始插入字符串"red"和"green"
+ *      例如，splice(2,0,"red","green")会从当前数组的位置2开始插入字符串"red"和"green"。
+ * 替换：可以向指定位置插入任意数量的项，且同时删除任意数量的项。
+ *      只需指定三个参数：起始位置、要删除的项数和要插入的任意数量的项，插入的项数不必于删除项数相等。
+ *      例如splice(2,1,"red","green")会删除当前数组位置2的项，然后再从位置2开始插入字符串"red"和"green"
  * splice()方法始终都会返回一个数组，该数组中包含从原始数组中删除的项(如果没有删除任何项，则返回空数组)
  */
 var colors = ["red", "green", "blue"];
@@ -602,7 +616,8 @@ alert(removed);//yellow,返回的数组中只包含一项
  * 位置方法
  * indexOf()和lastIndexOf()都接受两个参数:要查找的项和(可选的)表示查找起点位置的索引。
  * 其中indexOf()方法从数组的开头(位置0)开始向后查找，lastIndexOf()方法则从数组的末尾开始向前查找。
- * 这两个方法都返回要查找的项在数组中的位置，或者在没找到的情况下返回-1。在比较第一个参数与数组中的每一项时，会使用全等操作符，
+ * 这两个方法都返回要查找的项在数组中的位置，或者在没找到的情况下返回-1。
+ * 在比较第一个参数与数组中的每一项时，会使用全等操作符，
  * 也就是说，要求查找的项必须严格相等。
  */
 var numbers = [1,2,3,4,5,4,3,2,1];
@@ -617,7 +632,8 @@ alert(people.indexOf(person));//-1
 alert(morePeople.indexOf(person));//0
 /*
  * 迭代方法
- * ECMAScript5 为数组定义了5个迭代方法。每个方法都接受两个参数：要在每一项上运行的函数和(可选的)运行该函数的作用域对象－影响this的值。
+ * ECMAScript5 为数组定义了5个迭代方法。每个方法都接受两个参数：
+ * 要在每一项上运行的函数和(可选的)运行该函数的作用域对象－影响this的值。
  * 传入这些方法中的函数会接受三个参数：数组项的值、该项在数组中的位置和数组对象本身。
  * every():对数组中的每一项运行给定函数，如果该函数对每一项都返回true,则返回true。
  * filter():对数组中的每一项运行给定函数，返回该函数会返回true的项组成的数组。
@@ -656,7 +672,8 @@ numbers.forEach(function(item, index, array) {
  * reduceRight()方法则从数组的最后一项开始，向前遍历到第一项。
  * 这两个方法都接收两个参数：一个在每一项上调用的函数和(可选的)作为缩小基础的初始值。
  * 传给reduce()和reduceRight()的函数接收4个参数：前一个值、当前值、项的索引和数组对象。
- * 这个函数返回的任何值都会作为第一个参数自动传给下一项。第一次迭代发生在数组第二项上，因此第一个参数是数组的第一项，第二个参数就是数组第二项。
+ * 这个函数返回的任何值都会作为第一个参数自动传给下一项。
+ * 第一次迭代发生在数组第二项上，因此第一个参数是数组的第一项，第二个参数就是数组第二项。
  */
 var values = [1,2,3,4,5];
 var sum = values.reduce(function(prev, cur, index, array) {
@@ -670,8 +687,9 @@ var someDate = new Date(Date.parse("May 25, 2004"));
 var someDate = new Date("May 25, 2004");//等价
 /*
  * Date.UTC()方法同样也返回表示日期的毫秒数，但它与Date.parse()在构建值时使用不同信息。
- * Date.UTC()的参数分别是年份、基于0的月份(一月是0，二月是1，以此类推)、月中的哪一天(1到31)、小时数(0到23)、分钟、秒以及毫秒数
- * 在这些参数中只有前两个参数(年和月)是必需的。如果没有提供月中的天数，则假设天数为1；如果省略其他参数，则统统假设为0。
+ * Date.UTC()的参数分别是年份、基于0的月份(一月是0，二月是1，以此类推)、月中的哪一天(1到31)、
+ * 小时数(0到23)、分钟、秒以及毫秒数。在这些参数中只有前两个参数(年和月)是必需的。
+ * 如果没有提供月中的天数，则假设天数为1；如果省略其他参数，则统统假设为0。
  */
 var y2k = new Date(Date.UTC(2000,0));//2000年1月1日午夜零时
 var allFives = new Date(Date.UTC(2005, 4, 5, 17, 55, 55));//2005年5月5日下午5点55分55秒
@@ -750,9 +768,11 @@ alert(pattern2.lastIndex);//0
 alert(pattern2.source);//"\[bc\]at"
 /*
  * RegExp实例方法
- * RegExp对象的主要方法exec()，exec()接受一个参数，即要应用模式的字符串，然后返回包含第一个匹配项信息的数组；
- * 或者在没有匹配项的情况下返回null。返回的数组虽然是Array的实例，但包含两个额外的属性: index和input。
- * 其中，index表示匹配项在字符串中的位置，而input表示应用正则表达式的字符串。在数组中，第一项是与整个模式匹配的字符串，
+ * RegExp对象的主要方法exec()，exec()接受一个参数，即要应用模式的字符串，
+ * 然后返回包含第一个匹配项信息的数组；或者在没有匹配项的情况下返回null。
+ * 返回的数组虽然是Array的实例，但包含两个额外的属性: index和input。
+ * 其中，index表示匹配项在字符串中的位置，而input表示应用正则表达式的字符串。
+ * 在数组中，第一项是与整个模式匹配的字符串，
  * 其他项是与模式中的捕获组匹配的字符串(如果模式中没有捕获组，则该数组只包含一项)
  */
 var text = "mom and dad and baby";
@@ -840,7 +860,8 @@ data.sort(createComparisonFunction("age"));
 alert(data[0].name);//Zachary
 /*
  * 函数内部属性
- * arguments的主要用途是保存函数参数，它还有一个名叫callee的属性，该属性是一个指针，指向拥有这个arguments对象的函数。
+ * arguments的主要用途是保存函数参数，它还有一个名叫callee的属性，
+ * 该属性是一个指针，指向拥有这个arguments对象的函数。
  */
 function factorial(num) {
 	if (num <= 1) {
@@ -856,7 +877,8 @@ factorial = function() {
 alert(trueFactorial(5));//120
 alert(factorial(5));//0
 /*
- * this引用的事函数据以指向的环境对象－－－或者也可以说是this值(当在网页的全局作用域中调用函数时，this对象引用的就是window)
+ * this引用的事函数据以指向的环境对象
+ * 或者也可以说是this值(当在网页的全局作用域中调用函数时，this对象引用的就是window)
  */
 window.color = "red";
 var o = {color: "blue"};
@@ -896,8 +918,10 @@ alert(sayName.length);//1
 alert(sum.length);//2
 alert(sayHi.length);//0
 /*
- * 每个函数都包含两个非继承而来的方法：apply()和call()。这两个方法的用途都是在特定的作用域中调用函数，实际上等于设置函数体内this对象的值。
- * apply()方法接受两个参数：一个是在其中运行函数的作用域，另一个是参数数组。其中第二个参数可以是array的实例也可以是arguments对象。
+ * 每个函数都包含两个非继承而来的方法：apply()和call()。
+ * 这两个方法的用途都是在特定的作用域中调用函数，实际上等于设置函数体内this对象的值。
+ * apply()方法接受两个参数：一个是在其中运行函数的作用域，另一个是参数数组。
+ * 其中第二个参数可以是array的实例也可以是arguments对象。
  */
 function sum(num1, num2) {
 	return num1 + num2;
@@ -911,7 +935,8 @@ function callSum2(num1, num2) {
 alert(callSum1(10,10));//20
 alert(callSum2(10,10));//20
 /*
- * call()方法与apply()方法的作用相同，它们的区别仅在于接受参数的方式不同。对于call()方法而言，第一个参数是this值没有变化，
+ * call()方法与apply()方法的作用相同，它们的区别仅在于接受参数的方式不同。
+ * 对于call()方法而言，第一个参数是this值没有变化，
  * 变化的事其余参数都直接传递给函数。使用call()方法是，传递给函数的参数必须逐个列举出来。
  */
 function sum(num1, num2) {
@@ -1001,7 +1026,8 @@ alert(stringValue.slice(-3));//"rld"等价于slice(11-3)
 alert(stringValue.substring(-3));//"hello world"转换为substring(0)
 alert(stringValue.substr(-3));//"rld"等价于substr(11-3)
 alert(stringValue.slice(3, -4));//"lo w"等价于slice(3, 11-4)
-alert(stringValue.substring(3,-4));//"hel"等价于substring(3, 0)(会将较小的数作为开始位置，即substring(0,3))
+//"hel"等价于substring(3, 0)(会将较小的数作为开始位置，即substring(0,3))
+alert(stringValue.substring(3,-4));
 alert(stringValue.substr(3,-4));//等价于substr(3,0)即返回0个字符，所以返回空""
 //字符串位置方法indexOf() lastIndexOf()
 var stringValue = "hello world";
@@ -1029,7 +1055,8 @@ alert(stringValue.toLocaleLowerCase());//"hello world"
 alert(stringValue.toLowerCase());//"hello world"
 /*
  * 字符串的模式匹配方法
- * match()方法本质上与调用RegExp的exec()方法相同。该方法只接受一个参数，要么是一个正则表达式，要么是一个RegExp对象。
+ * match()方法本质上与调用RegExp的exec()方法相同。
+ * 该方法只接受一个参数，要么是一个正则表达式，要么是一个RegExp对象。
  */
 var text = "cat, bat, sat, fat";
 var pattern = /.at/;
@@ -1046,7 +1073,8 @@ var text = "cat, bat, sat, fat";
 var pos = text.search(/at/);
 alert(pos);//1
 /*
- * replace()方法接受两个参数：第一个参数可以是一个RegExp对象或者一个字符串(这个字符串不会被转换为正则表达式)，
+ * replace()方法接受两个参数：
+ * 第一个参数可以是一个RegExp对象或者一个字符串(这个字符串不会被转换为正则表达式)，
  * 第二个参数可以是一个字符或者一个函数。如果第一个参数是字符串，那么只会替换第一个子字符串。
  * 要想替换所有子字符串，唯一的办法就是提供一个正则表达式，而且要指定全局(g)标志。
  */
@@ -1056,8 +1084,10 @@ alert(result);//"cond, bat, sat, fat"
 result = text.replace(/at/g, "ond");
 alert(result);//"cond, bond, sond, fond"
 /*
- * 在只有一个匹配项(即与模式匹配的字符串)的情况下，会向这个函数传递三个参数：模式的匹配项、模式匹配项在字符串中的位置和原始字符串。
- * 在正则表达式中定义了多个捕获组的情况下，传递给函数的参数依次是模式的匹配项、第一个捕获组的匹配项、第二个捕获组的匹配项......,
+ * 在只有一个匹配项(即与模式匹配的字符串)的情况下，会向这个函数传递三个参数：
+ * 模式的匹配项、模式匹配项在字符串中的位置和原始字符串。
+ * 在正则表达式中定义了多个捕获组的情况下，传递给函数的参数依次是
+ * 模式的匹配项、第一个捕获组的匹配项、第二个捕获组的匹配项......,
  * 但最后两个参数仍然分别是模式的匹配项在字符串中的位置和原始字符串。
  */
 function htmlEscape(text) {
@@ -1074,7 +1104,8 @@ function htmlEscape(text) {
 		}
 	});
 }
-alert(htmlEscape("<p class=\"greeting\">Hello world!</p>"));//&lt;p class=&quot;greeting&quot;&gt;Hello world!&lt;/p&gt;
+//&lt;p class=&quot;greeting&quot;&gt;Hello world!&lt;/p&gt;
+alert(htmlEscape("<p class=\"greeting\">Hello world!</p>"));
 /*
  * split()方法可以给予指定的分隔符将一个字符串分割成多个子字符串，并将结果放在一个数组中。
  * 分隔符可以是字符串，也可以是一个RegExp对象(这个方法不会将字符串看成正则表达式)。
@@ -1256,10 +1287,12 @@ var person1 = new Person("Nicholas", 29, "Software Engineer");
 var person2 = new Person("Greg", 27, "Doctor");
 /*
  * 原型模式
- * 创建的每个函数都有一个prototype(原型)属性，这个属性是一个指针，指向一个对象，而这个对象的用途是包含可以由特定类型的所有实例共享的属性和方法
- * 使用原型对象的好处是可以让所有对象实例共享它所包含的属性和方法，不必在构造函数中定义对象实例的信息，而是将这些信息直接添加到原型对象中
+ * 创建的每个函数都有一个prototype(原型)属性，这个属性是一个指针，指向一个对象，
+ * 而这个对象的用途是包含可以由特定类型的所有实例共享的属性和方法。
+ * 使用原型对象的好处是可以让所有对象实例共享它所包含的属性和方法，
+ * 不必在构造函数中定义对象实例的信息，而是将这些信息直接添加到原型对象中
  */
-function Person() {};
+function Person() {}
 Person.prototype.name = "Nicholas";
 Person.prototype.age = 29;
 Person.prototype.job = "Software Engineer";
@@ -1281,7 +1314,7 @@ alert(person2.name);//"Nicholas"
 delete person1.name;
 alert(prson1.name);//"Nicholas"来自原型
 //hasOwnProperty()方法可以检测一个属性是存在于实例中还是存在于原型中
-function Person() {};
+function Person() {}
 Person.prototype.name = "Nicholas";
 Person.prototype.age = 29;
 Person.prototype.job = "Software Engineer";
@@ -1299,6 +1332,170 @@ alert(person2.hasOwnProperty("name"));//false
 delete person1.name;
 alert(person1.name);//"Nicholas"
 alert(person1.hasOwnProperty("name"));//false
+/*
+ * 原型与in操作符
+ * 有两种方法使用in操作符: 单独使用和在for-in循环中使用。
+ * 在单独使用时，in操作符会在通过对象能够访问给定属性是返回true，无论该属性存在于实例中还是原型中
+ */
+function Person() {}
+Person.prototype.name = "Nicholas";
+Person.prototype.age = 29;
+Person.prototype.job = "Software Engineer";
+Person.prototype.sayName = function() {
+	alert(this.name);
+};
+var person1 = new Person();
+var person2 = new Person();
+alert(person1.hasOwnProperty("name"));//false
+alert("name" in person1);//true
+person1.name = "Greg";
+alert(person1.name);//"Greg"
+alert(person1.hasOwnProperty("name"));//true
+alert("name" in person1);//true
+alert(person2.name);//"Nicholas"
+alert(person2.hasOwnProperty("name"));//false
+alert("name" in person2);//true
+delete person1.name;
+alert(person1.name);//"Nicholas"
+alert(person1.hasOwnProperty("name"));//false
+alert("name" in person1);//true
+
+function hasPrototypeProperty(object, name) {
+	return !object.hasOwnProperty(name) && (name in object);
+	/*
+	 * 由于in操作符只要通过对象能够访问到属性就返回true, hasOwnProperty()只在属性存在于实例中时才返回true,
+	 *因此只要in操作符返回true而hasOwnProperty()返回false，就可以确定属性是原型中的属性。
+	 */
+}
+function Person() {}
+Person.prototype.name = "Nicholas";
+Person.prototype.age = 29;
+Person.prototype.job = "Software Engineer";
+Person.prototype.sayName = function() {
+	alert(this.name);
+};
+var person = new Person();
+alert(hasPrototypeProperty(person, "name"));//true
+person.name = "Greg";
+alert(hasPrototypeProperty(person, "name"));//false
+/*
+ * 在使用for-in循环时，返回的是所有能够通过对象访问的、可枚举的(enumerated)属性.
+ * 其中既包括存在于实例中的属性，也包括存在于原型中的属性。
+ * 屏蔽了原型中不可枚举属性(即将[[Enumerable]]标记的属性)的实例属性也会在for-in循环中返回。
+ * 要取得对象上所有可枚举的实例属性，可以使用Object.keys()方法。
+ * 这个方法接受一个对象作为参数，返回一个包含所有可枚举属性的字符串数组。
+ */
+function Person() {}
+Person.prototype.name = "Nicholas";
+Person.prototype.age = 29;
+Person.prototype.job = "Software Engineer";
+Person.prototype.sayName = function() {
+	alert(this.name);
+};
+var keys = Object.keys(Person.prototype);
+alert(keys);//"name,age,job,sayName"
+var p1 = new Person();
+p1.name = "Rob";
+p1.age = 31;
+var p1keys = Object.keys(p1);
+alert(p1keys);//"name,age"
+//得到所有实例属性，无论是否可枚举，都可以使用Object.getOwnPropertyNames()方法
+var keys = Object.getOwnPropertyNames(Person,prototype);
+alert(keys);//"constructor,name,age,job,sayName"
+//对象字面量原型方法
+function Person() {}
+Person.prototype = {
+	name: "Nicholas",
+	age: 29,
+	job: "Software Engineer",
+	sayName: function() {
+		alert(this.name);
+	}
+};
+
+var friend = new Person();
+Person.prototype.sayHi = function() {
+	alert("hi");
+};
+friend.sayHi();//"Hi"
+function Person() {}
+var friend = new Person();
+Person.prototype = {
+	constructor: Person,
+	name: "Nicholas",
+	age: 29,
+	job: "Software Engineer",
+	sayName: function() {
+		alert(this.name);
+	}
+};
+friend.sayName();//error
+
+alert(typeof Array.prototype.sort);//"function"
+alert(typeof String.prototype.substring);//"function"
+
+String.prototype.startsWith = function(text) {
+	return this.indexOf(text) == 0;
+};
+var msg = "Hello world!";
+alert(msg.startsWith("Hello"));//true
+/*
+ * 组合使用构造函数模式和原型模式
+ * 构造函数模式用于定义实例属性，而原型模式用于定义方法和共享的属性。
+ * 每个实例都会有自己的一份实例属性的副本，但同时又共享着对方法的引用，最大限度地节省了内存。
+ */
+function Person(name, age, job) {
+	this.name = name;
+	this.age = age;
+	this.job = job;
+	this.friends = ["Shelby", "Court"];
+}
+Person.prototype = {
+	constructor: Person,
+	sayName: function() {
+		alert(this.name);
+	}
+}
+var person1 = new Person("Nicholas", 29, "Software Engineer");
+var person2 = new Person("Greg", 27, "Doctor");
+person1.friends.push("Van");
+alert(person1.friends);//"Shelby,Count,Van"
+alert(person2.friends);//"Shelby,Count"
+alert(person1.friends === person2.friends);//false
+alert(person1.sayName === person2.sayName);//true
+//通过检查某个应该存在的方法是否有效，来决定是否需要初始化原型
+function Person(name, age, job) {
+	this.name = name;
+	this.age = age;
+	this.job = job;
+	if (typeof this.sayName != "function") {
+		person.prototype.sayName = function() {
+			alert(this.name)
+		};
+	}
+}
+/*
+ * 寄生构造函数模式
+ * 这种模式的基本思想是创建一个函数，该函数的总用仅仅是封装创建对象的代码，然后再返回新创建的对象
+ * 从表面上看，这个函数又很像是典型的构造函数
+ */
+function Person(name, age, job) {
+	var o = new Object();
+	o.name = name;
+	o.age = age;
+	o.job = job;
+	o.sayName = function() {
+		alert(this.name);
+	};
+	return o;
+}
+var friend = new Person("Nicholas", 29, "Software Engineer");
+friend.sayName();//"Nicholas"
+
+
+
+
+
 
 
 
