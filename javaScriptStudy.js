@@ -1492,25 +1492,163 @@ function Person(name, age, job) {
 var friend = new Person("Nicholas", 29, "Software Engineer");
 friend.sayName();//"Nicholas"
 
+function SpecialArray() {
+	var values = new Array();
+	values.push.apply(values, arguments);
+	values.toPipedString = function() {
+		return this.join("|");
+	};
+	return values;
+}
+var colors = new SpecialArray("red", "blue", "green");
+alert(colors.toPipedString());//"red|blue|green"
+/*
+ * 稳妥构造函数模式
+ * 所谓稳妥对象，指的是没有公共属性，而且其方法也不引用this对象。
+ * 委托对象最适合在一些安全的环境中(这些环境中会禁止使用this和new)，
+ * 或者在防止数据被其他应用程序(Mashup程序)改动时使用。
+ * 稳妥构造函数遵循与寄生构造函数类似的模式，但有两点不同:
+ * 一事新创建的对象的实例方法不引用this;二是不使用new操作符调用构造函数
+ */
+function Person(name, age, job) {
+	//创建要返回的对象
+	var o = new Object();
+	//可以在这里定义私有变量和函数
+	
+	//添加方法
+	o.sayName = function() {
+		alert(name);
+	};
+	//返回对象
+	return o;
+}
+var friend = Person("Nicholas", 29, "Software Engineer");
+friend.sayName();//"Nicholas"
+//原型链
+function SuperType() {
+	this.property = true;
+	SuperType.prototype.getSuperValue = function() {
+		return this.property;
+	};
+	function subType() {
+		this.subproperty = false;
+	}
+    //继承了SuperType
+    SubType.prototype = new SuperType();
+    SubType.prototype.getSubValue = function() {
+    	return this.subproperty;
+    };
+    var instance = new SubType();
+    alert(instance.getSuperValue());//true
+}
+//确定原型和实例的关系
+alert(instance instanceof Object);//true
+alert(instance instanceof SuperType);//ture
+alert(instance instanceof SubType);//true
+alert(Object.prototype.isPrototypeOf(instance));//true
+alert(SuperType.prototype.isPrototypeOf(instance));//true
+alert(SubType.prototype.isPrototypeOf(instance));//true
 
+function SuperType() {
+	this.property = true;
+}
+SuperType.prototype.getSuperValue = function() {
+	return this.property;
+};
+function SubType() {
+	this.subproperty = false;
+}
+//继承了SuperType
+SubType.prototype = new SuperType();
+//添加新方法
+SubType.prototype.getSuperValue = function() {
+	return this.subproperty;
+};
+//重写超类型中的方法
+SubType.prototype.getSuperValue = function() {
+	return false;
+};
+var instance = new SubType();
+alert(instance.getSuperValue());//false
+/*
+ * 原型链的问题
+ * 包含引用类型值的原型属性会被所有实例共享，在通过原型来实现继承时，原型实际上会变成另一个类型的实例。
+ * 在创建子类型的实例时，不能像超类型的构造函数中传递参数。实际上，应该说是
+ * 没办法在不影响所有对象实例的情况下，给超类型的构造函数传递参数。
+ */
+function SuperType() {
+	this.colors = ["red", "blue", "green"];
+}
+function SubType() {}
+//继承SuperType
+SubType.prototype = new SuperType();
+var instance1 = new SubType();
+instance1.colors.push("black");
+alert(instance1.colors);//"red,blue,green,black"
+var instance2 = new SubType();
+alert(instance2.colors);//"red,blue,green,black"
+/*
+ * 借用构造函数
+ * 在子类型构造函数的内部调用超类型构造函数。
+ * 函数只不过是在特定环境中执行代码的对象，通过使用apply()和call()方法可以在(将来)新创建的对象上执行构造函数
+ */
+function SuperType() {
+	this.colors = ["red", "blue", "green"];
+}
+function SubType() {
+	//继承了SuperType
+	SuperType.call(this);
+}
+var instance1 = new SubType();
+instance1.colors.push("black");
+alert(instance1.colors);//"red,blue,green,black"
+var instance2 = new SubType();
+alert(instance2.colors);//"red,blue,green"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//借用构造函数可以在子类型构造函数中向超类型构造函数传递参数
+function SuperType(name) {
+	this.name = name;
+}
+function SubType() {
+	//继承了SuperType，同时还传递了参数
+	SuperType.call(this, "Nicholas");
+	//实例属性
+	this.age = 29;
+}
+var instance = new SubType();
+alert(instance.name);//"Nicholas"
+alert(instance.age);//29
+/*
+ * 组合继承，有时候也叫伪经典继承，指的是将原型链和借用构造函数的技术组合到一块，从而发挥二者之长。
+ * 其背后的思路是使用原型链实现对原型属性和方法的继承，而通过借用构造函数来实现对实例属性的继承。
+ * 既通过在原型上定义方法实现了函数复用，又能够保证每个实例都有它自己的属性。
+ */
+function SuperType(name) {
+	this.name = name;
+	this.colors = ["red", "blue", "green"];
+}
+SuperType.prototype.sayName = function() {
+	alert(this.name);
+};
+function SubType(name, age) {
+	//继承属性
+	SuperType.call(this, name);
+	this.age = age;
+}
+//继承方法
+SubType.prototype = new SuperType();
+SubType.prototype.sayAge = function() {
+	alert(this.age);
+};
+var instance1 = new SubType("Nicholas", 29);
+instance1.colors.push("black");
+alert(instance1.colors);//"red,blue,green,black"
+instance1.sayName();//"Nicholas"
+instance1.sayAge();//29
+var instance2 = new SubType("Greg", 27);
+alert(instance2.colors);//"red,blue,green"
+instance2.sayName();//"Greg"
+instance2.sayAge();//27
 
 
 
