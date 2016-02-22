@@ -352,7 +352,10 @@ function sayHi() {
 	alert("Hello " + arguments[0] + "," + arguments[1]);
 	//和alert("Hello" + name + "," + message)相等
 }
-functio`45);//2
+function howManyArgs() {
+	alert(arguments.length);
+}
+howManyArgs("string", 45);//2
 howManyArgs();//0
 howManyArgs(12);//1
 function doAdd() {
