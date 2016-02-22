@@ -352,10 +352,7 @@ function sayHi() {
 	alert("Hello " + arguments[0] + "," + arguments[1]);
 	//和alert("Hello" + name + "," + message)相等
 }
-function howManyArgs() {
-	alert(arguments.length);
-}
-howManyArgs("string", 45);//2
+functio`45);//2
 howManyArgs();//0
 howManyArgs(12);//1
 function doAdd() {
@@ -1704,8 +1701,7 @@ var anotherPerson = createAnother(person);
 anotherPerson.sayHi();//"Hi"
 /*
  * 寄生组合式继承
- * 通过借用构造函数来继承属性，通过原型链的混成模式来继承方法。
- * 不必为了指定字类型的原型而调用超类型的构造函数。
+ * 通过借用构造子类型的原型而调用超类型的构造函数。
  */
 function inheritPrototype(subType, superType) {
 	var prototype = object(superType.prototype);//创建对象
@@ -1729,8 +1725,15 @@ SubType.prototype.sayAge = function() {
 	alert(this.age);
 }; 
 
-
-
+function factorial(num) {
+	if (num <= 1) {
+		return 1;
+	}
+	else {
+		return num * arguments.callee(num - 1);
+	}
+} 
+ 
 
 
 
