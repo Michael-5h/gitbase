@@ -1,0 +1,121 @@
+.button-background {
+  margin: auto;
+  width: 450px;
+  height: 200px;
+  background-color: #1a2124; }
+  .button-background .button-bottom {
+    position: relative;
+    margin: auto;
+    display: -webkit-box;
+    -webkit-box-shadow: 0 0 10px #000000 inset;
+    top: 40px;
+    width: 400px;
+    height: 120px;
+    border-radius: 60px;
+    border-bottom: 1px solid #36343c;
+    background-color: #1a1825; }
+    .button-background .button-bottom .button-bottom-inset {
+      position: relative;
+      box-shadow: 0 0 10px #000000 inset;
+      top: 10px;
+      left: 10px;
+      width: 380px;
+      height: 100px;
+      border-radius: 60px;
+      border-bottom: 1px solid #36343c;
+      background-color: #15181c;
+      z-index: 0; }
+      .button-background .button-bottom .button-bottom-inset .close {
+        position: relative;
+        float: left;
+        top: 30px;
+        left: 40px;
+        font-size: 40px;
+        color: #605065;
+        text-shadow: 3px 3px 5px #000000; }
+      .button-background .button-bottom .button-bottom-inset .open-container {
+        position: relative;
+        float: right;
+        box-shadow: 0 0 35px #8851a9;
+        width: 215px;
+        height: 100px;
+        border-radius: 60px;
+        background: -webkit-linear-gradient(50deg, #ebcef7 0%, #d4acec 20%, #B554FD 45%, #8F4AC3 60%, #7819B7 80%);
+        animation: backgroundChange 1s; }
+        .button-background .button-bottom .button-bottom-inset .open-container .open {
+          position: relative;
+          float: right;
+          top: 30px;
+          right: 40px;
+          font-size: 40px;
+          color: #fddeff;
+          text-shadow: 2px 2px 5px #000000; }
+      .button-background .button-bottom .button-bottom-inset .button {
+        position: absolute;
+        float: left;
+        box-shadow: 0 3px 5px #000000;
+        width: 250px;
+        height: 100px;
+        z-index: 1;
+        transition: transform 1s;
+        border-radius: 60px;
+        border-top: 1px solid #585e6c;
+        background: -webkit-linear-gradient(top, #374651, #525967);
+        				/*&:hover{
+        					animation: buttonMove 2s infinite;
+                            -moz-animation: buttonMove 2s infinite; 
+                            -webkit-animation: buttonMove 2s infinite; 
+                            -o-animation: buttonMove 2s infinite; 
+        					@-moz-keyframes buttonMove{
+                                0% {left:0px; top:0px;}
+                                50% {left:130px; top:0px;}
+                                100% {left:0px; top:0px;}
+                            } 
+                            @-webkit-keyframes buttonMove{
+                                0% {left:0px; top:0px;}
+                                50% {left:130px; top:0px;}
+                                100% {left:0px; top:0px;}
+                            }   
+                            @-o-keyframes buttonMove{
+                                0% {left:0px; top:0px;}
+                                50% {left:130px; top:0px;}
+                                100% {left:0px; top:0px;}
+                            }  
+        				}*/ }
+        .button-background .button-bottom .button-bottom-inset .button:hover {
+          transform: translateX(130px); }
+        .button-background .button-bottom .button-bottom-inset .button .button-inside {
+          position: absolute;
+          float: left;
+          box-shadow: 0 3px 15px #525967 inset;
+          width: 250px;
+          height: 100px;
+          z-index: -1;
+          border-radius: 60px;
+          background: -webkit-linear-gradient(top, #374651, #1a1f24); }
+        .button-background .button-bottom .button-bottom-inset .button .circle-collection {
+          position: relative;
+          left: 80px;
+          top: 25px;
+          width: 100px;
+          height: 50px; }
+          .button-background .button-bottom .button-bottom-inset .button .circle-collection ul {
+            margin: 0;
+            padding: 0;
+            list-style: none; }
+            .button-background .button-bottom .button-bottom-inset .button .circle-collection ul li:last-child {
+              margin-right: 0;
+              margin-bottom: 10px; }
+          .button-background .button-bottom .button-bottom-inset .button .circle-collection .circle {
+            position: relative;
+            float: left;
+            margin-right: 12px;
+            display: -webkit-box;
+            box-shadow: 0 1px 2px #000000;
+            width: 8px;
+            height: 7px;
+            border-radius: 4px;
+            border-top: 1px solid #4a5773;
+            background: -webkit-linear-gradient(top, #4d5a67, #1c2028); }
+
+/*# sourceMappingURL=highLightButton.css.map */
