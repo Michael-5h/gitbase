@@ -105,9 +105,8 @@
  */
 
 /* Testing postcss-opacity
- * 
- *  
- */.opacityFallback{opacity:.5;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"}
+ * .opacityFallback{opacity:.5;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"} 
+ */
 /* Testing pixrem
  * 
  *  .remFallback {
