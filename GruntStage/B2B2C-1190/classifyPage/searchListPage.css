@@ -1,0 +1,882 @@
+/* line 1, searchListPage.scss */
+a {
+  color: #7d7d7d;
+  text-decoration: none;
+}
+
+/* line 5, searchListPage.scss */
+d {
+  font-size: 20px;
+  font-weight: 200px;
+  color: #000000;
+}
+
+/* line 10, searchListPage.scss */
+e {
+  position: relative;
+  float: left;
+  line-height: 30px;
+  font-size: 20px;
+  color: #c02d89;
+  font-weight: 900;
+}
+
+/* line 18, searchListPage.scss */
+f {
+  float: left;
+  right: 3px;
+  color: #7d7d7d;
+}
+
+/* line 23, searchListPage.scss */
+t {
+  position: relative;
+  float: left;
+  left: 10px;
+  color: #b5b1b1;
+}
+
+/* line 29, searchListPage.scss */
+w {
+  float: right;
+  color: #fff;
+  line-height: 20px;
+}
+
+/* line 34, searchListPage.scss */
+fr {
+  position: relative;
+  float: right;
+  right: 5px;
+}
+
+/* line 39, searchListPage.scss */
+.header {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8px;
+  width: 1190px;
+  height: 30px;
+  background-color: #e8e8e8;
+}
+/* line 47, searchListPage.scss */
+.header .header-left {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  color: #7d7d7d;
+}
+/* line 56, searchListPage.scss */
+.header .header-right {
+  position: relative;
+  float: right;
+  width: 400px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+/* line 65, searchListPage.scss */
+.header-below {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 112px;
+}
+/* line 71, searchListPage.scss */
+.header-below .header-below-left {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 112px;
+}
+/* line 76, searchListPage.scss */
+.header-below .header-below-left .ec-pic {
+  position: relative;
+  float: left;
+  top: 30px;
+  width: 74px;
+  height: 47px;
+  background-image: url(images/ec-pic.png);
+  background-repeat: no-repeat;
+}
+/* line 85, searchListPage.scss */
+.header-below .header-below-left .ec-text {
+  position: relative;
+  float: left;
+  top: 40px;
+  left: 20px;
+  width: 110px;
+  height: 40px;
+}
+/* line 92, searchListPage.scss */
+.header-below .header-below-left .ec-text .ec-text-top {
+  position: relative;
+  float: left;
+  font-size: x-large;
+}
+/* line 97, searchListPage.scss */
+.header-below .header-below-left .ec-text .ec-text-below {
+  position: relative;
+  float: left;
+  font-size: x-small;
+}
+/* line 104, searchListPage.scss */
+.header-below .header-below-middle {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30px;
+  width: 520px;
+  height: 70px;
+}
+/* line 111, searchListPage.scss */
+.header-below .header-below-middle .search-engine {
+  position: relative;
+  width: 515px;
+  height: 40px;
+}
+/* line 115, searchListPage.scss */
+.header-below .header-below-middle .search-engine .search-frame input {
+  width: 410px;
+  height: 32px;
+  font-size: larger;
+  border: 2px solid #e22335;
+}
+/* line 121, searchListPage.scss */
+.header-below .header-below-middle .search-engine .search-button input {
+  position: absolute;
+  left: 416px;
+  top: 0;
+  width: 102px;
+  height: 38px;
+  background-color: #e22335;
+  border: 1px solid #e22335;
+  font-size: 15px;
+  color: #ffffff;
+}
+/* line 133, searchListPage.scss */
+.header-below .header-below-middle .search-reminder {
+  position: relative;
+  font-size: 15px;
+  color: #acacac;
+}
+/* line 139, searchListPage.scss */
+.header-below .ecstore-section-right {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 195px;
+  height: 40px;
+  background-color: #f7f7f7;
+  background-image: url(images/shopping-cart.png);
+  background-repeat: no-repeat;
+}
+/* line 148, searchListPage.scss */
+.header-below .ecstore-section-right .shop-cart-text {
+  position: absolute;
+  right: 50px;
+  font-size: 15px;
+  color: #999999;
+  line-height: 40px;
+}
+/* line 155, searchListPage.scss */
+.header-below .ecstore-section-right .triangle-design {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid #d5d5d5;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+/* line 167, searchListPage.scss */
+.navigation-bar {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 40px;
+  background-color: #303030;
+}
+/* line 174, searchListPage.scss */
+.navigation-bar .left-bar {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 39px;
+  line-height: 40px;
+  font-size: 17px;
+  color: #ffffff;
+  border-bottom: 1px solid #e22335;
+}
+/* line 183, searchListPage.scss */
+.navigation-bar .left-bar:hover {
+  background-color: #e22335;
+}
+/* line 187, searchListPage.scss */
+.navigation-bar .right-bar {
+  position: relative;
+  float: left;
+  width: 975px;
+  height: 40px;
+}
+/* line 192, searchListPage.scss */
+.navigation-bar .right-bar .nav-block {
+  position: relative;
+  float: left;
+  top: 0;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 17px;
+  color: #ffffff;
+}
+/* line 202, searchListPage.scss */
+.navigation-bar .right-bar .nav-block:hover {
+  background-color: #e22335;
+}
+
+/* line 208, searchListPage.scss */
+.navigation-title {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 1190px;
+  height: 30px;
+  line-height: 30px;
+}
+
+/* line 217, searchListPage.scss */
+.main-section {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 1690px;
+}
+/* line 223, searchListPage.scss */
+.main-section .main-section-left {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  width: 215px;
+  height: 1490px;
+}
+/* line 229, searchListPage.scss */
+.main-section .main-section-left .main-section-left-1 {
+  position: relative;
+  float: left;
+  margin-bottom: 10px;
+  width: 215px;
+  height: auto;
+  background-color: #fff;
+}
+/* line 237, searchListPage.scss */
+.main-section .main-section-left .main-section-left-1 .main-section-left-classify {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 30px;
+  line-height: 30px;
+  color: #7d7d7d;
+  background-color: #e8e8e8;
+  margin-bottom: 1px;
+}
+/* line 246, searchListPage.scss */
+.main-section .main-section-left .main-section-left-1 .main-section-left-classify .classify-skin {
+  visibility: hidden;
+}
+/* line 250, searchListPage.scss */
+.main-section .main-section-left .main-section-left-1 .classify-skin {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 240px;
+  color: #7d7d7d;
+  background-color: #f8f8f8;
+}
+/* line 257, searchListPage.scss */
+.main-section .main-section-left .main-section-left-1 .classify-skin .text-dec {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 30px;
+  line-height: 30px;
+  color: #7d7d7d;
+  background-color: #e8e8e8;
+}
+/* line 266, searchListPage.scss */
+.main-section .main-section-left .main-section-left-1 .classify-skin .list-left, .main-section .main-section-left .main-section-left-1 .classify-skin .list-right {
+  position: absolute;
+  float: left;
+  width: 107px;
+  height: 150px;
+}
+/* line 271, searchListPage.scss */
+.main-section .main-section-left .main-section-left-1 .classify-skin .list-left fr, .main-section .main-section-left .main-section-left-1 .classify-skin .list-right fr {
+  top: 5px;
+}
+/* line 272, searchListPage.scss */
+.main-section .main-section-left .main-section-left-1 .classify-skin .list-left li, .main-section .main-section-left .main-section-left-1 .classify-skin .list-right li {
+  position: relative;
+  float: left;
+  margin-bottom: 5px;
+  top: -15px;
+  left: -40px;
+  width: 215px;
+  height: 30px;
+  list-style: none;
+}
+/* line 281, searchListPage.scss */
+.main-section .main-section-left .main-section-left-1 .classify-skin .list-left li:hover, .main-section .main-section-left .main-section-left-1 .classify-skin .list-right li:hover {
+  color: #fff;
+  background-color: #e8e8e8;
+}
+/* line 287, searchListPage.scss */
+.main-section .main-section-left .main-section-left-1 .classify-skin .list-right {
+  left: 108px;
+}
+/* line 293, searchListPage.scss */
+.main-section .main-section-left .main-section-left-2 {
+  position: relative;
+  float: left;
+  margin-bottom: 15px;
+  width: 215px;
+  height: 90px;
+  background-image: url(images/main-seciton-left-2.png);
+  background-repeat: no-repeat;
+}
+/* line 302, searchListPage.scss */
+.main-section .main-section-left .main-section-left-3 {
+  position: relative;
+  float: left;
+  margin-bottom: 15px;
+  width: 215px;
+  height: 366px;
+  background-image: url(images/main-seciton-left-3.png);
+  background-repeat: no-repeat;
+}
+/* line 312, searchListPage.scss */
+.main-section .main-section-right {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 1490px;
+}
+/* line 318, searchListPage.scss */
+.main-section .main-section-right .title-text-section {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 35px;
+  line-height: 35px;
+  color: #7d7d7d;
+  background-color: #e8e8e8;
+}
+/* line 326, searchListPage.scss */
+.main-section .main-section-right .title-text-section .text-design {
+  position: relative;
+  float: left;
+  left: 15px;
+}
+/* line 330, searchListPage.scss */
+.main-section .main-section-right .title-text-section .text-design g {
+  color: #e22335;
+}
+/* line 334, searchListPage.scss */
+.main-section .main-section-right .title-text-section .text-right-design {
+  position: relative;
+  float: right;
+  right: 13px;
+  top: 8px;
+  right: 3px;
+  line-height: 20px;
+  font-size: 13px;
+  color: #6aa2db;
+}
+/* line 346, searchListPage.scss */
+.main-section .main-section-right .select-area-hidden .select-area {
+  visibility: hidden;
+}
+/* line 350, searchListPage.scss */
+.main-section .main-section-right .select-area {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 215px;
+}
+/* line 355, searchListPage.scss */
+.main-section .main-section-right .select-area .brand-list, .main-section .main-section-right .select-area .price-list, .main-section .main-section-right .select-area .suitable-list, .main-section .main-section-right .select-area .effection-list {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 85px;
+  border-bottom: 1px dotted #e8e8e8;
+}
+/* line 361, searchListPage.scss */
+.main-section .main-section-right .select-area .brand-list .right-text-btn, .main-section .main-section-right .select-area .price-list .right-text-btn, .main-section .main-section-right .select-area .suitable-list .right-text-btn, .main-section .main-section-right .select-area .effection-list .right-text-btn {
+  position: relative;
+  float: right;
+  top: 10px;
+  right: 240px;
+  line-height: 20px;
+  width: 60px;
+  height: 20px;
+  font-size: 13px;
+  color: #6aa2db;
+}
+/* line 371, searchListPage.scss */
+.main-section .main-section-right .select-area .brand-list .right-text-btn .button-style, .main-section .main-section-right .select-area .price-list .right-text-btn .button-style, .main-section .main-section-right .select-area .suitable-list .right-text-btn .button-style, .main-section .main-section-right .select-area .effection-list .right-text-btn .button-style {
+  position: absolute;
+  float: right;
+  top: 2px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  background-color: #e8e8e8;
+}
+/* line 379, searchListPage.scss */
+.main-section .main-section-right .select-area .brand-list .right-text-btn .button-style .triangle-style, .main-section .main-section-right .select-area .price-list .right-text-btn .button-style .triangle-style, .main-section .main-section-right .select-area .suitable-list .right-text-btn .button-style .triangle-style, .main-section .main-section-right .select-area .effection-list .right-text-btn .button-style .triangle-style {
+  position: absolute;
+  top: 5px;
+  right: 4px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #fff;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+/* line 391, searchListPage.scss */
+.main-section .main-section-right .select-area .brand-list .brand-text, .main-section .main-section-right .select-area .price-list .brand-text, .main-section .main-section-right .select-area .suitable-list .brand-text, .main-section .main-section-right .select-area .effection-list .brand-text {
+  position: relative;
+  float: left;
+  left: 10px;
+  top: 5px;
+  font-size: 13px;
+  color: #7d7d7d;
+}
+/* line 399, searchListPage.scss */
+.main-section .main-section-right .select-area .brand-list ul, .main-section .main-section-right .select-area .price-list ul, .main-section .main-section-right .select-area .suitable-list ul, .main-section .main-section-right .select-area .effection-list ul {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  top: -9px;
+  font-size: 12px;
+  color: #7d7d7d;
+  list-style: none;
+}
+/* line 407, searchListPage.scss */
+.main-section .main-section-right .select-area .brand-list ul li, .main-section .main-section-right .select-area .price-list ul li, .main-section .main-section-right .select-area .suitable-list ul li, .main-section .main-section-right .select-area .effection-list ul li {
+  margin-bottom: 10px;
+  width: auto;
+  height: 20px;
+  line-height: 20px;
+}
+/* line 412, searchListPage.scss */
+.main-section .main-section-right .select-area .brand-list ul li:hover, .main-section .main-section-right .select-area .price-list ul li:hover, .main-section .main-section-right .select-area .suitable-list ul li:hover, .main-section .main-section-right .select-area .effection-list ul li:hover {
+  color: #e22335;
+}
+/* line 418, searchListPage.scss */
+.main-section .main-section-right .select-area .price-list, .main-section .main-section-right .select-area .suitable-list {
+  height: 40px;
+}
+/* line 421, searchListPage.scss */
+.main-section .main-section-right .select-area .price-list .price-text, .main-section .main-section-right .select-area .suitable-list .price-text {
+  position: relative;
+  float: left;
+  left: 10px;
+  line-height: 40px;
+  font-size: 13px;
+  color: #7d7d7d;
+}
+/* line 429, searchListPage.scss */
+.main-section .main-section-right .select-area .price-list ul, .main-section .main-section-right .select-area .suitable-list ul {
+  position: relative;
+  float: left;
+  top: -2px;
+  color: #7d7d7d;
+  font-size: 12px;
+  list-style: none;
+}
+/* line 437, searchListPage.scss */
+.main-section .main-section-right .select-area .price-list ul li, .main-section .main-section-right .select-area .suitable-list ul li {
+  position: relative;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 20px;
+}
+/* line 443, searchListPage.scss */
+.main-section .main-section-right .select-area .price-list ul li:hover, .main-section .main-section-right .select-area .suitable-list ul li:hover {
+  color: #e22335;
+}
+/* line 449, searchListPage.scss */
+.main-section .main-section-right .select-area .suitable-list {
+  height: 40px;
+}
+/* line 452, searchListPage.scss */
+.main-section .main-section-right .select-area .suitable-list .suitable-text {
+  position: relative;
+  float: left;
+  left: 10px;
+  line-height: 40px;
+  font-size: 13px;
+  color: #7d7d7d;
+}
+/* line 460, searchListPage.scss */
+.main-section .main-section-right .select-area .suitable-list ul {
+  position: relative;
+  float: left;
+  top: -2px;
+  color: #7d7d7d;
+  font-size: 12px;
+  list-style: none;
+}
+/* line 467, searchListPage.scss */
+.main-section .main-section-right .select-area .suitable-list ul li {
+  position: relative;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 15px;
+}
+/* line 473, searchListPage.scss */
+.main-section .main-section-right .select-area .suitable-list ul li:hover {
+  color: #e22335;
+}
+/* line 479, searchListPage.scss */
+.main-section .main-section-right .select-area .effection-list {
+  height: 45px;
+}
+/* line 482, searchListPage.scss */
+.main-section .main-section-right .select-area .effection-list .text-right-design {
+  position: relative;
+  float: right;
+  right: -50px;
+  top: 10px;
+  line-height: 20px;
+  font-size: 13px;
+  color: #6aa2db;
+}
+/* line 491, searchListPage.scss */
+.main-section .main-section-right .select-area .effection-list .effection-text {
+  position: relative;
+  float: left;
+  left: 10px;
+  line-height: 40px;
+  font-size: 13px;
+  color: #7d7d7d;
+}
+/* line 499, searchListPage.scss */
+.main-section .main-section-right .select-area .effection-list ul {
+  position: relative;
+  float: left;
+  top: -1px;
+  color: #7d7d7d;
+  font-size: 12px;
+  list-style: none;
+}
+/* line 506, searchListPage.scss */
+.main-section .main-section-right .select-area .effection-list ul li {
+  position: relative;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 10px;
+}
+/* line 512, searchListPage.scss */
+.main-section .main-section-right .select-area .effection-list ul li:hover {
+  color: #e22335;
+}
+/* line 520, searchListPage.scss */
+.main-section .main-section-right .main-section-right-1 {
+  position: relative;
+  float: left;
+  margin-bottom: 10px;
+  width: 965px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #e8e8e8;
+}
+/* line 528, searchListPage.scss */
+.main-section .main-section-right .main-section-right-1 .classify-button, .main-section .main-section-right .main-section-right-1 .classify-button-2 {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  top: 5px;
+  left: 15px;
+  font-size: 15px;
+  color: #7d7d7d;
+  border: 1px solid #cdcdcd;
+  background-color: #f4f4f4;
+}
+/* line 540, searchListPage.scss */
+.main-section .main-section-right .main-section-right-1 .down-arrow-design {
+  position: relative;
+  float: right;
+  width: 15px;
+  height: 15px;
+}
+/* line 545, searchListPage.scss */
+.main-section .main-section-right .main-section-right-1 .down-arrow-design .down-arrow-top {
+  position: absolute;
+  top: 2px;
+  left: 7px;
+  width: 4px;
+  height: 5px;
+  border: 1px solid #7d7d7d;
+  background-color: #7d7d7d;
+}
+/* line 554, searchListPage.scss */
+.main-section .main-section-right .main-section-right-1 .down-arrow-design .down-arrow-bottom {
+  position: absolute;
+  top: 9px;
+  left: 5px;
+  border-top: 6px solid #7d7d7d;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+/* line 563, searchListPage.scss */
+.main-section .main-section-right .main-section-right-1 .up-arrow-design {
+  position: relative;
+  float: right;
+  width: 15px;
+  height: 15px;
+}
+/* line 568, searchListPage.scss */
+.main-section .main-section-right .main-section-right-1 .up-arrow-design .up-arrow-top {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  border-bottom: 6px solid #7d7d7d;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+/* line 576, searchListPage.scss */
+.main-section .main-section-right .main-section-right-1 .up-arrow-design .up-arrow-bottom {
+  position: absolute;
+  top: 8px;
+  left: 7px;
+  width: 4px;
+  height: 5px;
+  border: 1px solid #7d7d7d;
+  background-color: #7d7d7d;
+}
+/* line 586, searchListPage.scss */
+.main-section .main-section-right .main-section-right-1 .page-count {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  top: 5px;
+  left: 15px;
+  width: 50px;
+  height: 20px;
+}
+/* line 595, searchListPage.scss */
+.main-section .main-section-right .main-section-right-1 .classify-button-2 {
+  color: #1065a8;
+}
+/* line 599, searchListPage.scss */
+.main-section .main-section-right .main-section-right-1 .total-goods {
+  position: relative;
+  float: right;
+  right: 110px;
+  line-height: 35px;
+  color: #7d7d7d;
+}
+/* line 605, searchListPage.scss */
+.main-section .main-section-right .main-section-right-1 .total-goods r {
+  color: #e22335;
+}
+/* line 609, searchListPage.scss */
+.main-section .main-section-right .main-section-right-1 .jump-page {
+  position: relative;
+  float: right;
+  margin-left: 20px;
+  top: 5px;
+  right: -165px;
+  width: 25px;
+  height: 25px;
+  background-color: #e8e8e8;
+  border: 1px solid #cdcdcd;
+}
+/* line 621, searchListPage.scss */
+.main-section .main-section-right .main-section-right-2 {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 920px;
+}
+/* line 626, searchListPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 720px;
+}
+/* line 631, searchListPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box .main-right-box-design {
+  position: relative;
+  float: left;
+  margin-right: 2px;
+  width: 238px;
+  height: 342px;
+}
+/* line 637, searchListPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box .main-right-box-design .main-right-box-top {
+  position: relative;
+  width: 236px;
+  height: 236px;
+  border: 1px solid transparent;
+}
+/* line 642, searchListPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box .main-right-box-design .main-right-box-top .main-right-box-in {
+  position: relative;
+  top: 8px;
+  left: 8px;
+  width: 220px;
+  height: 220px;
+  border: 1px solid transparent;
+}
+/* line 651, searchListPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box .main-right-box-design .main-right-box-bottom {
+  position: relative;
+  left: 8px;
+  width: 220px;
+  height: 105px;
+  border: 1px solid transparent;
+  border-top: none;
+}
+/* line 660, searchListPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box .main-right-box-design:hover .main-right-box-top {
+  border: 1px solid #cdcdcd;
+}
+/* line 661, searchListPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box .main-right-box-design:hover .main-right-box-in {
+  border: 1px solid #cdcdcd;
+}
+/* line 662, searchListPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box .main-right-box-design:hover .main-right-box-bottom {
+  border: 1px solid #cdcdcd;
+  border-top: none;
+}
+
+/* line 671, searchListPage.scss */
+.bottom-jump-section {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 50px;
+}
+/* line 677, searchListPage.scss */
+.bottom-jump-section .more-page {
+  position: relative;
+  float: left;
+  width: 25px;
+  left: 954px;
+}
+/* line 683, searchListPage.scss */
+.bottom-jump-section .bottom-btn-design {
+  position: relative;
+  float: left;
+  margin-left: 5px;
+  right: -945px;
+  color: #1065a8;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+}
+/* line 691, searchListPage.scss */
+.bottom-jump-section .bottom-btn-design .triangle-design {
+  position: absolute;
+  top: 6px;
+  right: -1px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid #e22335;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+}
+
+/* line 703, searchListPage.scss */
+.footer-above {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 195px;
+  background-color: #f0f0f0;
+}
+/* line 710, searchListPage.scss */
+.footer-above ul li {
+  list-style: none;
+  color: #888888;
+  font-size: small;
+}
+/* line 715, searchListPage.scss */
+.footer-above .footer-above-text-1 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 43px;
+}
+/* line 721, searchListPage.scss */
+.footer-above .footer-above-text-2 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 130px;
+}
+/* line 727, searchListPage.scss */
+.footer-above .footer-above-text-3 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 240px;
+}
+/* line 733, searchListPage.scss */
+.footer-above .footer-above-text-4 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 340px;
+}
+/* line 739, searchListPage.scss */
+.footer-above .footer-above-text-5 {
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 90px;
+}
+
+/* line 746, searchListPage.scss */
+.footer {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20px;
+  width: 1190px;
+  height: 97px;
+  background-color: #303030;
+  text-align: center;
+}
+/* line 755, searchListPage.scss */
+.footer .footer-text {
+  position: relative;
+  float: left;
+  left: 430px;
+  top: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #686671;
+}

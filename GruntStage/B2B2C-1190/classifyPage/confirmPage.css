@@ -1,0 +1,662 @@
+/* line 1, confirmPage.scss */
+a {
+  color: #7d7d7d;
+  text-decoration: none;
+}
+
+/* line 5, confirmPage.scss */
+d {
+  font-size: 20px;
+  font-weight: 200px;
+  color: #000000;
+}
+
+/* line 10, confirmPage.scss */
+e {
+  position: relative;
+  float: left;
+  line-height: 40px;
+  font-size: 20px;
+  color: #303030;
+  font-weight: 900;
+}
+
+/* line 18, confirmPage.scss */
+f {
+  float: left;
+  right: 3px;
+  color: #7d7d7d;
+}
+
+/* line 23, confirmPage.scss */
+t {
+  position: relative;
+  float: left;
+  left: 10px;
+  color: #b5b1b1;
+}
+
+/* line 29, confirmPage.scss */
+w {
+  float: right;
+  color: #fff;
+  line-height: 20px;
+}
+
+/* line 34, confirmPage.scss */
+red {
+  color: #e22335;
+}
+
+/* line 37, confirmPage.scss */
+red2 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #e22335;
+}
+
+/* line 42, confirmPage.scss */
+red3 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #e22335;
+}
+
+/* line 47, confirmPage.scss */
+body {
+  background-color: #f5f5f5;
+}
+
+/* line 50, confirmPage.scss */
+bold {
+  font-weight: 900;
+  color: #5e5e5e;
+}
+
+/* line 54, confirmPage.scss */
+.header {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8px;
+  width: 1190px;
+  height: 30px;
+  background-color: #e8e8e8;
+}
+/* line 62, confirmPage.scss */
+.header .header-left {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  color: #7d7d7d;
+}
+/* line 71, confirmPage.scss */
+.header .header-right {
+  position: relative;
+  float: right;
+  width: 400px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+/* line 80, confirmPage.scss */
+.header-below {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 112px;
+  background-color: #fff;
+}
+/* line 87, confirmPage.scss */
+.header-below .header-below-left {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 112px;
+}
+/* line 92, confirmPage.scss */
+.header-below .header-below-left .ec-pic {
+  position: relative;
+  float: left;
+  top: 30px;
+  width: 74px;
+  height: 47px;
+  background-image: url(images/ec-pic.png);
+  background-repeat: no-repeat;
+}
+/* line 101, confirmPage.scss */
+.header-below .header-below-left .ec-text {
+  position: relative;
+  float: left;
+  top: 40px;
+  left: 20px;
+  width: 110px;
+  height: 40px;
+}
+/* line 108, confirmPage.scss */
+.header-below .header-below-left .ec-text .ec-text-top {
+  position: relative;
+  float: left;
+  font-size: x-large;
+}
+/* line 113, confirmPage.scss */
+.header-below .header-below-left .ec-text .ec-text-below {
+  position: relative;
+  float: left;
+  font-size: x-small;
+}
+/* line 120, confirmPage.scss */
+.header-below .header-below-middle {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30px;
+  width: 520px;
+  height: 70px;
+}
+/* line 127, confirmPage.scss */
+.header-below .header-below-middle .search-engine {
+  position: relative;
+  width: 515px;
+  height: 40px;
+}
+/* line 131, confirmPage.scss */
+.header-below .header-below-middle .search-engine .search-frame input {
+  width: 410px;
+  height: 32px;
+  font-size: larger;
+  border: 2px solid #e22335;
+}
+/* line 137, confirmPage.scss */
+.header-below .header-below-middle .search-engine .search-button input {
+  position: absolute;
+  left: 416px;
+  top: 0;
+  width: 102px;
+  height: 38px;
+  background-color: #e22335;
+  border: 1px solid #e22335;
+  font-size: 15px;
+  color: #ffffff;
+}
+/* line 149, confirmPage.scss */
+.header-below .header-below-middle .search-reminder {
+  position: relative;
+  font-size: 15px;
+  color: #acacac;
+}
+/* line 155, confirmPage.scss */
+.header-below .ecstore-section-right {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 195px;
+  height: 40px;
+  background-color: #f7f7f7;
+  background-image: url(images/shopping-cart.png);
+  background-repeat: no-repeat;
+}
+/* line 164, confirmPage.scss */
+.header-below .ecstore-section-right .shop-cart-text {
+  position: absolute;
+  right: 50px;
+  font-size: 15px;
+  color: #999999;
+  line-height: 40px;
+}
+/* line 171, confirmPage.scss */
+.header-below .ecstore-section-right .triangle-design {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid #d5d5d5;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+/* line 183, confirmPage.scss */
+.navigation-bar {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 40px;
+  background-color: #303030;
+}
+/* line 190, confirmPage.scss */
+.navigation-bar .left-bar {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 39px;
+  line-height: 40px;
+  font-size: 17px;
+  color: #ffffff;
+  border-bottom: 1px solid #e22335;
+}
+/* line 199, confirmPage.scss */
+.navigation-bar .left-bar:hover {
+  background-color: #e22335;
+}
+/* line 203, confirmPage.scss */
+.navigation-bar .right-bar {
+  position: relative;
+  float: left;
+  width: 975px;
+  height: 40px;
+}
+/* line 208, confirmPage.scss */
+.navigation-bar .right-bar .nav-block {
+  position: relative;
+  float: left;
+  top: 0;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 17px;
+  color: #ffffff;
+}
+/* line 218, confirmPage.scss */
+.navigation-bar .right-bar .nav-block:hover {
+  background-color: #e22335;
+}
+
+/* line 224, confirmPage.scss */
+.navigation-title {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #666666;
+  border-bottom: 2px solid #e22335;
+}
+
+/* line 235, confirmPage.scss */
+.confirm-address {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 130px;
+  background-color: #fff;
+}
+/* line 242, confirmPage.scss */
+.confirm-address .confirm-address-text {
+  position: relative;
+  float: left;
+  width: 1190px;
+  height: 40px;
+  line-height: 40px;
+}
+/* line 248, confirmPage.scss */
+.confirm-address .confirm-address-text .address-left {
+  position: relative;
+  float: left;
+  color: #666666;
+  font-weight: 900;
+}
+/* line 254, confirmPage.scss */
+.confirm-address .confirm-address-text .address-right {
+  position: relative;
+  float: right;
+  right: 5px;
+  color: #4787b7;
+  font-weight: 900;
+}
+/* line 262, confirmPage.scss */
+.confirm-address .address-1 {
+  position: relative;
+  float: left;
+  width: 1190px;
+  height: 40px;
+  line-height: 40px;
+  color: #666666;
+  background-color: #f7f7f7;
+  border-top: 2px solid #e8e8e8;
+  border-bottom: 2px solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+}
+/* line 275, confirmPage.scss */
+.confirm-address .address-2 {
+  position: relative;
+  float: left;
+  width: 1190px;
+  height: 40px;
+  line-height: 40px;
+  color: #666666;
+  background-color: #fff;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+/* line 286, confirmPage.scss */
+.confirm-indent-info {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 50px;
+  line-height: 50px;
+  color: #666666;
+  background-color: #fff;
+}
+
+/* line 296, confirmPage.scss */
+.freeplus-title-2 {
+  position: relative;
+  float: left;
+  margin-top: 20px;
+  left: 29px;
+  width: 1190px;
+  height: 30px;
+  line-height: 30px;
+  color: #666666;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+/* line 307, confirmPage.scss */
+.freeplus-title {
+  position: relative;
+  float: left;
+  left: 29px;
+  width: 1190px;
+  height: 30px;
+  line-height: 30px;
+  color: #7d7d7d;
+  background-color: #fff;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+/* line 318, confirmPage.scss */
+.freeplus-selection {
+  position: relative;
+  float: left;
+  left: 29px;
+  width: 1190px;
+  height: auto;
+}
+/* line 324, confirmPage.scss */
+.freeplus-selection .store-title {
+  position: relative;
+  float: left;
+  width: 1190px;
+  height: 30px;
+  line-height: 30px;
+  color: #666666;
+  background-color: #f7f7f7;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  border-bottom: 2px solid #e8e8e8;
+}
+/* line 335, confirmPage.scss */
+.freeplus-selection .store-title .goods-all-pick {
+  position: relative;
+  float: left;
+  top: 5px;
+  left: 4px;
+}
+/* line 341, confirmPage.scss */
+.freeplus-selection .store-title .store-title-text {
+  position: relative;
+  float: left;
+  left: -100px;
+  margin-left: 160px;
+}
+/* line 347, confirmPage.scss */
+.freeplus-selection .store-title .store-title-text-0 {
+  position: relative;
+  float: left;
+  margin-right: 230px;
+}
+/* line 353, confirmPage.scss */
+.freeplus-selection .goods-section {
+  position: relative;
+  float: left;
+  width: 1190px;
+  height: 145px;
+  color: #7d7d7d;
+  border-bottom: 2px solid #e8e8e8;
+  background-color: #fff;
+}
+/* line 361, confirmPage.scss */
+.freeplus-selection .goods-section img {
+  position: relative;
+  float: left;
+  top: 15px;
+}
+/* line 366, confirmPage.scss */
+.freeplus-selection .goods-section .goods-info-text {
+  position: relative;
+  float: left;
+  left: 35px;
+  top: 15px;
+  height: 45px;
+  width: 145px;
+  line-height: 45px;
+  font-size: 15px;
+}
+/* line 376, confirmPage.scss */
+.freeplus-selection .goods-section .goods-info-text-0 {
+  position: relative;
+  float: left;
+  top: -25px;
+  height: 45px;
+  width: 145px;
+  line-height: 45px;
+  font-size: 15px;
+}
+/* line 385, confirmPage.scss */
+.freeplus-selection .goods-section .goods-section-text {
+  position: relative;
+  float: left;
+  margin-right: 152px;
+  left: 145px;
+  top: 40px;
+}
+/* line 392, confirmPage.scss */
+.freeplus-selection .goods-section .goods-section-text-1 {
+  position: relative;
+  float: left;
+  margin-right: 152px;
+  left: 185px;
+  top: 40px;
+}
+/* line 398, confirmPage.scss */
+.freeplus-selection .goods-section .goods-section-text-1 .text {
+  position: relative;
+  float: left;
+}
+/* line 402, confirmPage.scss */
+.freeplus-selection .goods-section .goods-section-text-1 .carriage-forward {
+  position: relative;
+  float: left;
+  left: -100px;
+  top: 30px;
+}
+/* line 407, confirmPage.scss */
+.freeplus-selection .goods-section .goods-section-text-1 .carriage-forward .text-1 {
+  position: relative;
+  float: left;
+}
+/* line 411, confirmPage.scss */
+.freeplus-selection .goods-section .goods-section-text-1 .carriage-forward .carriage-forward-list {
+  position: relative;
+  float: left;
+  width: 70px;
+  height: 20px;
+  border: 2px solid #e8e8e8;
+}
+/* line 417, confirmPage.scss */
+.freeplus-selection .goods-section .goods-section-text-1 .carriage-forward .carriage-forward-list .list-left {
+  position: relative;
+  float: left;
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-right: 2px solid #e8e8e8;
+}
+/* line 426, confirmPage.scss */
+.freeplus-selection .goods-section .goods-section-text-1 .carriage-forward .carriage-forward-list .list-right {
+  position: relative;
+  float: left;
+}
+/* line 429, confirmPage.scss */
+.freeplus-selection .goods-section .goods-section-text-1 .carriage-forward .carriage-forward-list .list-right .triangle-down {
+  position: absolute;
+  top: 8px;
+  left: 6px;
+  border-top: 5px solid #666666;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+}
+/* line 441, confirmPage.scss */
+.freeplus-selection .goods-section .total-count {
+  position: relative;
+  float: left;
+  width: 175px;
+  height: 120px;
+}
+/* line 446, confirmPage.scss */
+.freeplus-selection .goods-section .total-count .ul-left {
+  position: relative;
+  float: left;
+  top: 42px;
+  height: 30px;
+  width: 75px;
+  height: 75px;
+  color: #7d7d7d;
+  list-style: none;
+}
+/* line 455, confirmPage.scss */
+.freeplus-selection .goods-section .total-count .ul-left li {
+  position: relative;
+  margin-bottom: 13px;
+}
+/* line 460, confirmPage.scss */
+.freeplus-selection .goods-section .total-count .ul-right {
+  position: relative;
+  float: right;
+  top: -95px;
+  right: -50px;
+  width: 75px;
+  height: 75px;
+  color: #7d7d7d;
+  list-style: none;
+}
+/* line 469, confirmPage.scss */
+.freeplus-selection .goods-section .total-count .ul-right li {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+/* line 477, confirmPage.scss */
+.payment-section {
+  position: relative;
+  float: left;
+  margin-top: 50px;
+  left: 29px;
+  width: 1190px;
+  height: 130px;
+  color: #7d7d7d;
+  border: 2px solid #e8e8e8;
+  background-color: #fff;
+}
+/* line 487, confirmPage.scss */
+.payment-section .payment-way {
+  position: relative;
+  float: left;
+  line-height: 130px;
+}
+/* line 493, confirmPage.scss */
+.payment-section .ul-left {
+  position: relative;
+  float: left;
+  left: 515px;
+  top: 14px;
+  list-style: none;
+}
+/* line 499, confirmPage.scss */
+.payment-section .ul-left li {
+  position: relative;
+  margin-bottom: 10px;
+}
+/* line 504, confirmPage.scss */
+.payment-section .ul-right {
+  position: relative;
+  float: right;
+  right: 130px;
+  list-style: none;
+}
+/* line 509, confirmPage.scss */
+.payment-section .ul-right li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* line 515, confirmPage.scss */
+.return-shopping-cart {
+  position: relative;
+  float: left;
+  left: 29px;
+  width: 1190px;
+  height: 90px;
+  line-height: 90px;
+}
+/* line 522, confirmPage.scss */
+.return-shopping-cart .text {
+  position: relative;
+  float: right;
+  right: 240px;
+  color: #666666;
+  font-weight: 900;
+}
+/* line 529, confirmPage.scss */
+.return-shopping-cart .submit-btn {
+  position: relative;
+  float: right;
+  top: 30px;
+  left: 40px;
+  width: 105px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: 900;
+  color: #fff;
+  border: none;
+  background-color: #e22335;
+}
+
+/* line 544, confirmPage.scss */
+.footer {
+  position: relative;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  left: 29px;
+  width: 1190px;
+  height: 97px;
+  background-color: #303030;
+  text-align: center;
+}
+/* line 554, confirmPage.scss */
+.footer .footer-text {
+  position: relative;
+  float: left;
+  left: 430px;
+  top: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #686671;
+}

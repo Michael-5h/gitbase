@@ -1,0 +1,880 @@
+/* line 1, goodsInfoPage.scss */
+a {
+  color: #7d7d7d;
+  text-decoration: none;
+}
+
+/* line 5, goodsInfoPage.scss */
+d {
+  font-size: 20px;
+  font-weight: 200px;
+  color: #000000;
+}
+
+/* line 10, goodsInfoPage.scss */
+e {
+  position: relative;
+  float: left;
+  line-height: 30px;
+  font-size: 20px;
+  color: #6f6c6c;
+  font-weight: 900;
+}
+
+/* line 18, goodsInfoPage.scss */
+f {
+  float: left;
+  right: 3px;
+  color: #7d7d7d;
+}
+
+/* line 23, goodsInfoPage.scss */
+t {
+  position: relative;
+  float: left;
+  left: 10px;
+  color: #b5b1b1;
+}
+
+/* line 29, goodsInfoPage.scss */
+w {
+  float: right;
+  color: #fff;
+  line-height: 20px;
+}
+
+/* line 34, goodsInfoPage.scss */
+fr {
+  position: relative;
+  float: right;
+  right: 5px;
+}
+
+/* line 39, goodsInfoPage.scss */
+red {
+  color: #e22335;
+  font-weight: 900;
+}
+
+/* line 43, goodsInfoPage.scss */
+red2 {
+  color: #e22335;
+}
+
+/* line 46, goodsInfoPage.scss */
+blue {
+  color: #176cc6;
+}
+
+/* line 49, goodsInfoPage.scss */
+green {
+  color: #008910;
+}
+
+/* line 52, goodsInfoPage.scss */
+.header {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8px;
+  width: 1190px;
+  height: 30px;
+  background-color: #e8e8e8;
+}
+/* line 60, goodsInfoPage.scss */
+.header .header-left {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  color: #7d7d7d;
+}
+/* line 69, goodsInfoPage.scss */
+.header .header-right {
+  position: relative;
+  float: right;
+  width: 400px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+/* line 78, goodsInfoPage.scss */
+.header-below {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 112px;
+}
+/* line 84, goodsInfoPage.scss */
+.header-below .header-below-left {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 112px;
+}
+/* line 89, goodsInfoPage.scss */
+.header-below .header-below-left .ec-pic {
+  position: relative;
+  float: left;
+  top: 30px;
+  width: 74px;
+  height: 47px;
+  background-image: url(images/ec-pic.png);
+  background-repeat: no-repeat;
+}
+/* line 98, goodsInfoPage.scss */
+.header-below .header-below-left .ec-text {
+  position: relative;
+  float: left;
+  top: 40px;
+  left: 20px;
+  width: 110px;
+  height: 40px;
+}
+/* line 105, goodsInfoPage.scss */
+.header-below .header-below-left .ec-text .ec-text-top {
+  position: relative;
+  float: left;
+  font-size: x-large;
+}
+/* line 110, goodsInfoPage.scss */
+.header-below .header-below-left .ec-text .ec-text-below {
+  position: relative;
+  float: left;
+  font-size: x-small;
+}
+/* line 117, goodsInfoPage.scss */
+.header-below .header-below-middle {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30px;
+  width: 520px;
+  height: 70px;
+}
+/* line 124, goodsInfoPage.scss */
+.header-below .header-below-middle .search-engine {
+  position: relative;
+  width: 515px;
+  height: 40px;
+}
+/* line 128, goodsInfoPage.scss */
+.header-below .header-below-middle .search-engine .search-frame input {
+  width: 410px;
+  height: 32px;
+  font-size: larger;
+  border: 2px solid #e22335;
+}
+/* line 134, goodsInfoPage.scss */
+.header-below .header-below-middle .search-engine .search-button input {
+  position: absolute;
+  left: 416px;
+  top: 0;
+  width: 102px;
+  height: 38px;
+  background-color: #e22335;
+  border: 1px solid #e22335;
+  font-size: 15px;
+  color: #ffffff;
+}
+/* line 146, goodsInfoPage.scss */
+.header-below .header-below-middle .search-reminder {
+  position: relative;
+  font-size: 15px;
+  color: #acacac;
+}
+/* line 152, goodsInfoPage.scss */
+.header-below .ecstore-section-right {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 195px;
+  height: 40px;
+  background-color: #f7f7f7;
+  background-image: url(images/shopping-cart.png);
+  background-repeat: no-repeat;
+}
+/* line 161, goodsInfoPage.scss */
+.header-below .ecstore-section-right .shop-cart-text {
+  position: absolute;
+  right: 50px;
+  font-size: 15px;
+  color: #999999;
+  line-height: 40px;
+}
+/* line 168, goodsInfoPage.scss */
+.header-below .ecstore-section-right .triangle-design {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid #d5d5d5;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+/* line 180, goodsInfoPage.scss */
+.navigation-bar {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  width: 1190px;
+  height: 40px;
+  background-color: #303030;
+}
+/* line 188, goodsInfoPage.scss */
+.navigation-bar .left-bar {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 39px;
+  line-height: 40px;
+  font-size: 17px;
+  color: #ffffff;
+  border-bottom: 1px solid #e22335;
+}
+/* line 197, goodsInfoPage.scss */
+.navigation-bar .left-bar:hover {
+  background-color: #e22335;
+}
+/* line 201, goodsInfoPage.scss */
+.navigation-bar .right-bar {
+  position: relative;
+  float: left;
+  width: 975px;
+  height: 40px;
+}
+/* line 206, goodsInfoPage.scss */
+.navigation-bar .right-bar .nav-block {
+  position: relative;
+  float: left;
+  top: 0;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 17px;
+  color: #ffffff;
+}
+/* line 216, goodsInfoPage.scss */
+.navigation-bar .right-bar .nav-block:hover {
+  background-color: #e22335;
+}
+
+/* line 222, goodsInfoPage.scss */
+.navigation-title {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 1190px;
+  height: 30px;
+  line-height: 30px;
+  color: #7d7d7d;
+  font-size: 15px;
+}
+
+/* line 233, goodsInfoPage.scss */
+.goods-selection-section {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 1190px;
+  height: 410px;
+}
+/* line 240, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-left {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  width: 350px;
+  height: 410px;
+}
+/* line 246, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-left .goods-pic-top {
+  position: relative;
+  float: left;
+  margin-bottom: 5px;
+  width: 348px;
+  height: 348px;
+  border: 1px solid #e8e8e8;
+  background-image: url(images/images/goods-show-left_01.png);
+  background-repeat: no-repeat;
+}
+/* line 256, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-left .goods-pic-bottom {
+  position: relative;
+  float: left;
+  width: 350px;
+  height: 55px;
+}
+/* line 261, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-left .goods-pic-bottom .turn-left-btn, .goods-selection-section .goods-selection-left .goods-pic-bottom .turn-right-btn {
+  position: relative;
+  float: left;
+  margin-right: 7px;
+  width: 13px;
+  height: 55px;
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+}
+/* line 269, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-left .goods-pic-bottom .turn-left-btn .triangle-left, .goods-selection-section .goods-selection-left .goods-pic-bottom .turn-right-btn .triangle-left {
+  position: absolute;
+  right: 3px;
+  top: 23px;
+  border-right: 5px solid #e8e8e8;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+/* line 278, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-left .goods-pic-bottom .turn-right-btn {
+  float: right;
+  right: -9px;
+  margin-left: -8px;
+}
+/* line 283, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-left .goods-pic-bottom .turn-right-btn .triangle-right {
+  position: absolute;
+  right: 3px;
+  top: 23px;
+  border-left: 5px solid #e8e8e8;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+/* line 292, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-left .goods-pic-bottom .goods-show-pic {
+  position: relative;
+  float: left;
+  margin-right: 6px;
+  width: 53px;
+  height: 53px;
+  border: 2px solid #e8e8e8;
+}
+/* line 299, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-left .goods-pic-bottom .goods-show-pic:hover {
+  border: 2px solid #e22335;
+}
+/* line 305, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right {
+  position: relative;
+  float: left;
+  width: 828px;
+  height: 408px;
+  border: 1px solid #e8e8e8;
+}
+/* line 311, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-title-text {
+  position: relative;
+  float: left;
+  width: 828px;
+  height: 50px;
+  line-height: 50px;
+  color: #666666;
+  border-bottom: 1px solid #e8e8e8;
+}
+/* line 320, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-price-text {
+  position: relative;
+  float: left;
+  margin-bottom: 20px;
+  width: 580px;
+  height: 169px;
+  border-bottom: 1px solid #e8e8e8;
+}
+/* line 327, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-price-text ul {
+  color: #7d7d7d;
+  list-style: none;
+}
+/* line 330, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-price-text ul li {
+  margin-bottom: 10px;
+}
+/* line 332, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-price-text ul li img {
+  position: relative;
+  top: 6px;
+  left: 15px;
+}
+/* line 337, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-price-text ul li .count-style {
+  width: 19px;
+  height: 19px;
+  line-height: 10px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+}
+/* line 345, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-price-text ul li .number-style {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 38px;
+  height: 18px;
+  border: 1px solid #e8e8e8;
+}
+/* line 355, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-color-text {
+  position: relative;
+  float: left;
+  width: 580px;
+  height: 80px;
+  color: #7d7d7d;
+}
+/* line 361, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-color-text .color-selection-text {
+  position: relative;
+  float: left;
+  left: 40px;
+}
+/* line 366, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-color-text .color-selection-pic {
+  position: relative;
+  float: left;
+  width: 470px;
+  height: 75px;
+}
+/* line 371, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-color-text .color-selection-pic .color-selection-pic-1, .goods-selection-section .goods-selection-right .goods-color-text .color-selection-pic .color-selection-pic-2, .goods-selection-section .goods-selection-right .goods-color-text .color-selection-pic .color-selection-pic-3, .goods-selection-section .goods-selection-right .goods-color-text .color-selection-pic .color-selection-pic-4, .goods-selection-section .goods-selection-right .goods-color-text .color-selection-pic .color-selection-pic-5 {
+  position: relative;
+  float: left;
+  margin-right: 5px;
+  left: 50px;
+  width: 133px;
+  height: 28px;
+  font-size: 13px;
+  line-height: 28px;
+  border: 1px solid #e8e8e8;
+  background-image: url(images/color-selection-pic-1.png);
+  background-repeat: no-repeat;
+}
+/* line 384, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-color-text .color-selection-pic .color-selection-pic-2 {
+  width: 105px;
+  background-image: url(images/color-selection-pic-2.png);
+}
+/* line 389, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-color-text .color-selection-pic .color-selection-pic-3 {
+  width: 98px;
+  border: 1px solid #e8e8e8;
+  background-image: url(images/color-selection-pic-3.png);
+}
+/* line 395, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-color-text .color-selection-pic .color-selection-pic-4 {
+  width: 103px;
+  background-image: url(images/color-selection-pic-4.png);
+}
+/* line 400, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-color-text .color-selection-pic .color-selection-pic-5 {
+  margin-top: 5px;
+  width: 120px;
+  background-image: url(images/color-selection-pic-5.png);
+}
+/* line 408, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-submit-btn {
+  position: relative;
+  float: left;
+  margin-top: 20px;
+  width: 580px;
+  height: 60px;
+}
+/* line 414, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-submit-btn .submit-btn-1, .goods-selection-section .goods-selection-right .goods-submit-btn .submit-btn-2 {
+  position: relative;
+  float: left;
+  margin-right: 30px;
+  left: 120px;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 36px;
+  color: #ffffff;
+  border: none;
+  background-color: #e22335;
+}
+/* line 428, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .goods-submit-btn .submit-btn-2 {
+  background-color: #f0975b;
+}
+/* line 434, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .store-info {
+  position: fixed;
+  float: right;
+  top: 330px;
+  right: 37px;
+  width: 175px;
+  height: 210px;
+  font-size: 12px;
+  border: 1px solid #e8e8e8;
+  z-index: 10;
+}
+/* line 444, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .store-info .store-name, .goods-selection-section .goods-selection-right .store-info .store-score {
+  position: relative;
+  float: left;
+  width: 175px;
+  height: 34px;
+  line-height: 34px;
+  color: #7d7d7d;
+  border-bottom: 1px solid #e8e8e8;
+}
+/* line 456, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .store-info .store-credit {
+  position: relative;
+  float: left;
+  top: -10px;
+  width: 175px;
+  height: 104px;
+  color: #7d7d7d;
+  border-bottom: 1px solid #e8e8e8;
+}
+/* line 464, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .store-info .store-credit ul {
+  position: relative;
+  float: left;
+  list-style: none;
+}
+/* line 468, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .store-info .store-credit ul li {
+  position: relative;
+  float: left;
+  width: 175px;
+  left: -35px;
+  margin-bottom: 5px;
+}
+/* line 474, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .store-info .store-credit ul li .triangle-down {
+  position: relative;
+  float: right;
+  width: 8px;
+  height: 10px;
+}
+/* line 479, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .store-info .store-credit ul li .triangle-down .triangle-down-top {
+  position: absolute;
+  top: 5px;
+  right: 65px;
+  width: 4px;
+  height: 6px;
+  background-color: #008910;
+}
+/* line 487, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .store-info .store-credit ul li .triangle-down .triangle-down-bottom {
+  position: absolute;
+  top: 10px;
+  right: 63px;
+  border-top: 5px solid #008910;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+/* line 496, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .store-info .store-credit ul li .triangle-up {
+  position: relative;
+  float: right;
+  width: 8px;
+  height: 10px;
+}
+/* line 501, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .store-info .store-credit ul li .triangle-up .triangle-down-top {
+  position: absolute;
+  top: 3px;
+  right: 63px;
+  border-bottom: 5px solid #e22335;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+/* line 509, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .store-info .store-credit ul li .triangle-up .triangle-down-bottom {
+  position: absolute;
+  top: 8px;
+  right: 65px;
+  width: 4px;
+  height: 6px;
+  background-color: #e22335;
+}
+/* line 521, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .store-info .store-link {
+  position: relative;
+  float: left;
+  width: 175px;
+  height: 40px;
+}
+/* line 526, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .store-info .store-link .link-btn-1, .goods-selection-section .goods-selection-right .store-info .store-link .link-btn-2 {
+  position: relative;
+  float: left;
+  margin-left: 7px;
+  margin-right: 15px;
+  width: 70px;
+  height: 25px;
+  line-height: 21px;
+  font-size: 12px;
+  font-weight: 900;
+  color: #fff;
+  border: none;
+  background-color: #e22335;
+}
+/* line 540, goodsInfoPage.scss */
+.goods-selection-section .goods-selection-right .store-info .store-link .link-btn-2 {
+  margin-right: -15px;
+  background-color: #f0975b;
+}
+
+/* line 549, goodsInfoPage.scss */
+.main-area {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 1190px;
+  height: 2630px;
+}
+/* line 556, goodsInfoPage.scss */
+.main-area .main-area-left {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  width: 215px;
+  height: 2630px;
+}
+/* line 562, goodsInfoPage.scss */
+.main-area .main-area-left .store-text {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 35px;
+  line-height: 35px;
+  color: #7d7d7d;
+  background-color: #e8e8e8;
+}
+/* line 571, goodsInfoPage.scss */
+.main-area .main-area-left .store-search, .main-area .main-area-left .store-classify {
+  position: relative;
+  float: left;
+  margin-bottom: 15px;
+  width: 215px;
+  height: 100px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+}
+/* line 579, goodsInfoPage.scss */
+.main-area .main-area-left .store-search .key-word, .main-area .main-area-left .store-classify .key-word {
+  position: relative;
+  float: left;
+  top: 15px;
+  left: 10px;
+  font-size: 15px;
+  color: #7d7d7d;
+}
+/* line 586, goodsInfoPage.scss */
+.main-area .main-area-left .store-search .key-word .key-word-search, .main-area .main-area-left .store-classify .key-word .key-word-search {
+  position: relative;
+  left: -5px;
+  width: 135px;
+  height: 23px;
+  border: 1px solid #e8e8e8;
+  background-image: url(images/key-word-search-pic.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+/* line 598, goodsInfoPage.scss */
+.main-area .main-area-left .store-classify {
+  height: 195px;
+}
+/* line 601, goodsInfoPage.scss */
+.main-area .main-area-left .store-classify ul {
+  position: relative;
+  top: 10px;
+  list-style: none;
+  font-size: 13px;
+  color: #7d7d7d;
+}
+/* line 607, goodsInfoPage.scss */
+.main-area .main-area-left .store-classify ul li {
+  position: relative;
+  margin-bottom: 5px;
+  left: -30px;
+}
+/* line 615, goodsInfoPage.scss */
+.main-area .main-area-left .goods-viewed {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 645px;
+  border: 1px solid #e8e8e8;
+}
+/* line 623, goodsInfoPage.scss */
+.main-area .main-area-right {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 2630px;
+}
+/* line 628, goodsInfoPage.scss */
+.main-area .main-area-right .goods-intro {
+  position: relative;
+  float: left;
+  margin-bottom: 20px;
+  width: 965px;
+  height: 140px;
+  border: 1px solid #e8e8e8;
+}
+/* line 635, goodsInfoPage.scss */
+.main-area .main-area-right .goods-intro .goods-intro-title {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 15px;
+  font-weight: 900;
+  color: #7d7d7d;
+  background-color: #e8e8e8;
+}
+/* line 645, goodsInfoPage.scss */
+.main-area .main-area-right .goods-intro .goods-intro-title .goods-intro-text {
+  position: relative;
+  float: left;
+  padding-left: 15px;
+  padding-right: 5px;
+  width: auto;
+  height: 35px;
+}
+/* line 652, goodsInfoPage.scss */
+.main-area .main-area-right .goods-intro .goods-intro-title .goods-intro-text:hover {
+  color: #e22335;
+  border-top: 2px solid #e22335;
+  background-color: #fff;
+}
+/* line 659, goodsInfoPage.scss */
+.main-area .main-area-right .goods-intro .goods-intro-info {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 105px;
+}
+/* line 664, goodsInfoPage.scss */
+.main-area .main-area-right .goods-intro .goods-intro-info .info-text {
+  position: absolute;
+  float: right;
+  top: 15px;
+  right: 110px;
+  color: #7d7d7d;
+}
+/* line 671, goodsInfoPage.scss */
+.main-area .main-area-right .goods-intro .goods-intro-info ul {
+  position: relative;
+  float: left;
+  left: -30px;
+  list-style: none;
+  color: #7d7d7d;
+}
+/* line 680, goodsInfoPage.scss */
+.main-area .main-area-right .goods-info {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 2370px;
+}
+/* line 685, goodsInfoPage.scss */
+.main-area .main-area-right .goods-info .goods-info-text {
+  position: relative;
+  float: left;
+  padding-left: 15px;
+  width: 965px;
+  height: 35px;
+  font-weight: 900;
+  line-height: 35px;
+  color: #e22335;
+  background-color: #e8e8e8;
+}
+/* line 696, goodsInfoPage.scss */
+.main-area .main-area-right .goods-info img {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20px;
+  left: 110px;
+}
+
+/* line 706, goodsInfoPage.scss */
+.footer-above {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 195px;
+  background-color: #f0f0f0;
+}
+/* line 713, goodsInfoPage.scss */
+.footer-above ul li {
+  list-style: none;
+  color: #888888;
+  font-size: small;
+}
+/* line 718, goodsInfoPage.scss */
+.footer-above .footer-above-text-1 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 43px;
+}
+/* line 724, goodsInfoPage.scss */
+.footer-above .footer-above-text-2 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 130px;
+}
+/* line 730, goodsInfoPage.scss */
+.footer-above .footer-above-text-3 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 240px;
+}
+/* line 736, goodsInfoPage.scss */
+.footer-above .footer-above-text-4 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 340px;
+}
+/* line 742, goodsInfoPage.scss */
+.footer-above .footer-above-text-5 {
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 90px;
+}
+
+/* line 749, goodsInfoPage.scss */
+.footer {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20px;
+  width: 1190px;
+  height: 97px;
+  background-color: #303030;
+  text-align: center;
+}
+/* line 758, goodsInfoPage.scss */
+.footer .footer-text {
+  position: relative;
+  float: left;
+  left: 430px;
+  top: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #686671;
+}

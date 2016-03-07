@@ -1,0 +1,756 @@
+/* line 1, afterSelectionPage.scss */
+a {
+  color: #7d7d7d;
+  text-decoration: none;
+}
+
+/* line 5, afterSelectionPage.scss */
+d {
+  font-size: 20px;
+  font-weight: 200px;
+  color: #000000;
+}
+
+/* line 10, afterSelectionPage.scss */
+e {
+  position: relative;
+  float: left;
+  line-height: 30px;
+  font-size: 20px;
+  color: #7d7d7d;
+  font-weight: 900;
+}
+
+/* line 18, afterSelectionPage.scss */
+f {
+  float: left;
+  color: #7d7d7d;
+}
+
+/* line 22, afterSelectionPage.scss */
+red {
+  color: #e22335;
+  font-weight: 900;
+}
+
+/* line 26, afterSelectionPage.scss */
+red2 {
+  color: #e22335;
+}
+
+/* line 29, afterSelectionPage.scss */
+blue {
+  color: #176cc6;
+}
+
+/* line 32, afterSelectionPage.scss */
+green {
+  color: #008910;
+}
+
+/* line 35, afterSelectionPage.scss */
+fr {
+  float: right;
+}
+
+/* line 38, afterSelectionPage.scss */
+fr2 {
+  position: relative;
+  float: right;
+  right: 10px;
+}
+
+/* line 43, afterSelectionPage.scss */
+fl {
+  position: relative;
+  float: left;
+  left: 10px;
+  color: #666666;
+}
+
+/* line 49, afterSelectionPage.scss */
+.header {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8px;
+  width: 1190px;
+  height: 30px;
+  background-color: #e8e8e8;
+}
+/* line 57, afterSelectionPage.scss */
+.header .header-left {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  color: #7d7d7d;
+}
+/* line 66, afterSelectionPage.scss */
+.header .header-right {
+  position: relative;
+  float: right;
+  width: 400px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+/* line 75, afterSelectionPage.scss */
+.header-below {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 112px;
+}
+/* line 81, afterSelectionPage.scss */
+.header-below .header-below-left {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 112px;
+}
+/* line 86, afterSelectionPage.scss */
+.header-below .header-below-left .ec-pic {
+  position: relative;
+  float: left;
+  top: 30px;
+  width: 74px;
+  height: 47px;
+  background-image: url(images/ec-pic.png);
+  background-repeat: no-repeat;
+}
+/* line 95, afterSelectionPage.scss */
+.header-below .header-below-left .ec-text {
+  position: relative;
+  float: left;
+  top: 40px;
+  left: 20px;
+  width: 110px;
+  height: 40px;
+}
+/* line 102, afterSelectionPage.scss */
+.header-below .header-below-left .ec-text .ec-text-top {
+  position: relative;
+  float: left;
+  font-size: x-large;
+}
+/* line 107, afterSelectionPage.scss */
+.header-below .header-below-left .ec-text .ec-text-below {
+  position: relative;
+  float: left;
+  font-size: x-small;
+}
+/* line 114, afterSelectionPage.scss */
+.header-below .header-below-middle {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30px;
+  width: 520px;
+  height: 70px;
+}
+/* line 121, afterSelectionPage.scss */
+.header-below .header-below-middle .search-engine {
+  position: relative;
+  width: 515px;
+  height: 40px;
+}
+/* line 125, afterSelectionPage.scss */
+.header-below .header-below-middle .search-engine .search-frame input {
+  width: 410px;
+  height: 32px;
+  font-size: larger;
+  border: 2px solid #e22335;
+}
+/* line 131, afterSelectionPage.scss */
+.header-below .header-below-middle .search-engine .search-button input {
+  position: absolute;
+  left: 416px;
+  top: 0;
+  width: 102px;
+  height: 38px;
+  background-color: #e22335;
+  border: 1px solid #e22335;
+  font-size: 15px;
+  color: #ffffff;
+}
+/* line 143, afterSelectionPage.scss */
+.header-below .header-below-middle .search-reminder {
+  position: relative;
+  font-size: 15px;
+  color: #acacac;
+}
+/* line 149, afterSelectionPage.scss */
+.header-below .ecstore-section-right {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 195px;
+  height: 40px;
+  background-color: #f7f7f7;
+  background-image: url(images/shopping-cart.png);
+  background-repeat: no-repeat;
+}
+/* line 158, afterSelectionPage.scss */
+.header-below .ecstore-section-right .shop-cart-text {
+  position: absolute;
+  right: 50px;
+  font-size: 15px;
+  color: #999999;
+  line-height: 40px;
+}
+/* line 165, afterSelectionPage.scss */
+.header-below .ecstore-section-right .triangle-design {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid #d5d5d5;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+/* line 177, afterSelectionPage.scss */
+.navigation-bar {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 40px;
+  background-color: #303030;
+}
+/* line 184, afterSelectionPage.scss */
+.navigation-bar .left-bar {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 39px;
+  line-height: 40px;
+  font-size: 17px;
+  color: #ffffff;
+  border-bottom: 1px solid #e22335;
+}
+/* line 193, afterSelectionPage.scss */
+.navigation-bar .left-bar:hover {
+  background-color: #e22335;
+}
+/* line 197, afterSelectionPage.scss */
+.navigation-bar .right-bar {
+  position: relative;
+  float: left;
+  width: 975px;
+  height: 40px;
+}
+/* line 202, afterSelectionPage.scss */
+.navigation-bar .right-bar .nav-block {
+  position: relative;
+  float: left;
+  top: 0;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 17px;
+  color: #ffffff;
+}
+/* line 212, afterSelectionPage.scss */
+.navigation-bar .right-bar .nav-block:hover {
+  background-color: #e22335;
+}
+
+/* line 218, afterSelectionPage.scss */
+.navigation-title {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 1190px;
+  height: 30px;
+  line-height: 30px;
+  color: #7d7d7d;
+}
+
+/* line 228, afterSelectionPage.scss */
+.main-section {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 1490px;
+}
+/* line 234, afterSelectionPage.scss */
+.main-section .main-section-left {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  width: 215px;
+  height: 1490px;
+}
+/* line 240, afterSelectionPage.scss */
+.main-section .main-section-left .main-section-left-1 {
+  position: relative;
+  float: left;
+  margin-bottom: 10px;
+  width: 215px;
+  height: auto;
+  background-color: #fff;
+}
+/* line 248, afterSelectionPage.scss */
+.main-section .main-section-left .main-section-left-1 .main-section-left-classify {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 30px;
+  line-height: 30px;
+  color: #7d7d7d;
+  background-color: #e8e8e8;
+  margin-bottom: 1px;
+}
+/* line 257, afterSelectionPage.scss */
+.main-section .main-section-left .main-section-left-1 .main-section-left-classify .classify-skin {
+  visibility: hidden;
+}
+/* line 261, afterSelectionPage.scss */
+.main-section .main-section-left .main-section-left-1 .classify-skin {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 115px;
+  color: #7d7d7d;
+}
+/* line 267, afterSelectionPage.scss */
+.main-section .main-section-left .main-section-left-1 .classify-skin .text-dec {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 30px;
+  line-height: 30px;
+  color: #7d7d7d;
+  background-color: #e8e8e8;
+}
+/* line 276, afterSelectionPage.scss */
+.main-section .main-section-left .main-section-left-1 .classify-skin .list-left, .main-section .main-section-left .main-section-left-1 .classify-skin .list-right {
+  position: absolute;
+  float: left;
+  width: 107px;
+  height: 85px;
+}
+/* line 281, afterSelectionPage.scss */
+.main-section .main-section-left .main-section-left-1 .classify-skin .list-left li, .main-section .main-section-left .main-section-left-1 .classify-skin .list-right li {
+  position: relative;
+  float: left;
+  margin-bottom: 5px;
+  top: -15px;
+  left: -10px;
+  width: 107px;
+  height: 20px;
+  list-style: none;
+}
+/* line 292, afterSelectionPage.scss */
+.main-section .main-section-left .main-section-left-1 .classify-skin .list-right {
+  left: 108px;
+}
+/* line 298, afterSelectionPage.scss */
+.main-section .main-section-left .main-section-left-2 {
+  position: relative;
+  float: left;
+  margin-bottom: 15px;
+  width: 215px;
+  height: 90px;
+  background-image: url(images/main-seciton-left-2.png);
+  background-repeat: no-repeat;
+}
+/* line 307, afterSelectionPage.scss */
+.main-section .main-section-left .main-section-left-3 {
+  position: relative;
+  float: left;
+  margin-bottom: 15px;
+  width: 215px;
+  height: 366px;
+  background-image: url(images/main-seciton-left-3.png);
+  background-repeat: no-repeat;
+}
+/* line 317, afterSelectionPage.scss */
+.main-section .main-section-right {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 1490px;
+}
+/* line 322, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 {
+  position: relative;
+  float: left;
+  margin-bottom: 10px;
+  width: 965px;
+  height: 250px;
+  border: 1px solid #e8e8e8;
+}
+/* line 329, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .selection-title {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 17px;
+  color: #7d7d7d;
+  background-color: #e8e8e8;
+}
+/* line 339, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .selected-section {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 45px;
+  line-height: 45px;
+  color: #666666;
+  border-bottom: 1px dotted #e8e8e8;
+}
+/* line 347, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .selected-section .selected-box {
+  position: relative;
+  float: left;
+  top: 10px;
+  left: 5px;
+  width: 133px;
+  height: 23px;
+  line-height: 23px;
+  font-size: 14px;
+  color: #7d7d7d;
+  border: 1px solid #e8e8e8;
+  background-color: #fafafa;
+}
+/* line 360, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .selected-section img {
+  position: relative;
+  top: 2px;
+}
+/* line 365, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section, .main-section .main-section-right .main-section-right-0 .sleeve-type, .main-section .main-section-right .main-section-right-0 .material-type, .main-section .main-section-right .main-section-right-0 .size-type {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 40px;
+  line-height: 38px;
+  color: #666666;
+  border-bottom: 1px dotted #e8e8e8;
+}
+/* line 373, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .selected-more, .main-section .main-section-right .main-section-right-0 .sleeve-type .selected-more, .main-section .main-section-right .main-section-right-0 .material-type .selected-more, .main-section .main-section-right .main-section-right-0 .size-type .selected-more {
+  position: relative;
+  float: right;
+  right: 10px;
+  top: 10px;
+  width: 45px;
+  height: 20px;
+  font-size: 10px;
+  line-height: 10px;
+  color: #0364c3;
+  border: 1px solid #d8d8d8;
+  background-color: #f5f3f4;
+}
+/* line 386, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box, .main-section .main-section-right .main-section-right-0 .material-type .color-box, .main-section .main-section-right .main-section-right-0 .size-type .color-box {
+  position: relative;
+  float: left;
+  top: 8px;
+  left: 15px;
+  margin-right: 10px;
+  padding: 1px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #e8e8e8;
+}
+/* line 396, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-1, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-1, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-1, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-1, .main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .color-section .sleeve-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-section .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .color-section .material-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .material-type .color-section .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .sleeve-type .material-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .material-type .sleeve-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .color-section .size-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .size-type .color-section .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .sleeve-type .size-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .size-type .sleeve-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .material-type .size-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .size-type .material-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-15 {
+  position: relative;
+  top: 1px;
+  left: 1px;
+  width: 16px;
+  height: 16px;
+  background-color: #666666;
+}
+/* line 404, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-2, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-2 {
+  background-color: #bbbbbb;
+}
+/* line 408, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-3, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-3 {
+  background-color: #ffffff;
+}
+/* line 412, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-4, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-4 {
+  background-color: #ffd8d9;
+}
+/* line 416, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-5, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-5 {
+  background-color: #fe0000;
+}
+/* line 420, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-6, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-6 {
+  background-color: #fe028b;
+}
+/* line 424, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-7, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-7 {
+  background-color: #b037ee;
+}
+/* line 428, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-8, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-8 {
+  background-color: #2a8cfb;
+}
+/* line 432, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-9, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-9 {
+  background-color: #17bc32;
+}
+/* line 436, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-10, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-10 {
+  background-color: #ffcc01;
+}
+/* line 440, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-11, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-11 {
+  background-color: #ff8900;
+}
+/* line 444, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-12, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-12 {
+  background-color: #814312;
+}
+/* line 448, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-13, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-13 {
+  background-color: #c69d81;
+}
+/* line 452, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-14, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-14 {
+  background-color: #f3ddc8;
+}
+/* line 456, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .color-section .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .sleeve-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .material-type .color-box .in-box-15, .main-section .main-section-right .main-section-right-0 .size-type .color-box .in-box-15 {
+  background-image: url(images/colorful-pic.png);
+}
+/* line 468, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-0 .size-type {
+  top: 5px;
+  border-bottom: none;
+}
+/* line 475, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-1 {
+  position: relative;
+  float: left;
+  margin-bottom: 10px;
+  width: 965px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #e8e8e8;
+}
+/* line 483, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-1 .classify-button {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  top: 5px;
+  left: 15px;
+  font-size: 15px;
+  color: #7d7d7d;
+  border: 1px solid #cdcdcd;
+  background-color: #fff;
+}
+/* line 494, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-1 .total-goods {
+  position: relative;
+  float: right;
+  right: 110px;
+  line-height: 35px;
+  color: #7d7d7d;
+}
+/* line 500, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-1 .total-goods r {
+  color: #e22335;
+}
+/* line 504, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-1 .jump-page {
+  position: relative;
+  float: right;
+  margin-left: 20px;
+  top: 5px;
+  right: -165px;
+  width: 25px;
+  height: 25px;
+  background-color: #e8e8e8;
+  border: 1px solid #cdcdcd;
+}
+/* line 516, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-2 {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 920px;
+}
+/* line 521, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box {
+  position: relative;
+  float: left;
+  width: 965px;
+  height: 720px;
+}
+/* line 526, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box .main-right-box-design {
+  position: relative;
+  float: left;
+  margin-right: 2px;
+  width: 238px;
+  height: 342px;
+}
+/* line 532, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box .main-right-box-design .main-right-box-top {
+  position: relative;
+  width: 236px;
+  height: 236px;
+  border: 1px solid transparent;
+}
+/* line 537, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box .main-right-box-design .main-right-box-top .main-right-box-in {
+  position: relative;
+  top: 8px;
+  left: 8px;
+  width: 220px;
+  height: 220px;
+  border: 1px solid transparent;
+}
+/* line 546, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box .main-right-box-design .main-right-box-bottom {
+  position: relative;
+  left: 8px;
+  width: 220px;
+  height: 105px;
+  border: 1px solid transparent;
+  border-top: none;
+}
+/* line 555, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box .main-right-box-design:hover .main-right-box-top {
+  border: 1px solid #cdcdcd;
+}
+/* line 556, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box .main-right-box-design:hover .main-right-box-in {
+  border: 1px solid #cdcdcd;
+}
+/* line 557, afterSelectionPage.scss */
+.main-section .main-section-right .main-section-right-2 .main-right-box .main-right-box-design:hover .main-right-box-bottom {
+  border: 1px solid #cdcdcd;
+  border-top: none;
+}
+
+/* line 566, afterSelectionPage.scss */
+.bottom-jump-section {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 210px;
+  width: 1190px;
+  height: 50px;
+}
+/* line 573, afterSelectionPage.scss */
+.bottom-jump-section .more-page {
+  position: relative;
+  float: left;
+  width: 25px;
+  left: 954px;
+}
+/* line 579, afterSelectionPage.scss */
+.bottom-jump-section .bottom-btn-design {
+  position: relative;
+  float: left;
+  margin-left: 5px;
+  right: -945px;
+  color: #1065a8;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+}
+/* line 587, afterSelectionPage.scss */
+.bottom-jump-section .bottom-btn-design .triangle-design {
+  position: absolute;
+  top: 6px;
+  right: -1px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid #e22335;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+}
+
+/* line 599, afterSelectionPage.scss */
+.footer-above {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 195px;
+  background-color: #f0f0f0;
+}
+/* line 606, afterSelectionPage.scss */
+.footer-above ul li {
+  list-style: none;
+  color: #888888;
+  font-size: small;
+}
+/* line 611, afterSelectionPage.scss */
+.footer-above .footer-above-text-1 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 43px;
+}
+/* line 617, afterSelectionPage.scss */
+.footer-above .footer-above-text-2 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 130px;
+}
+/* line 623, afterSelectionPage.scss */
+.footer-above .footer-above-text-3 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 240px;
+}
+/* line 629, afterSelectionPage.scss */
+.footer-above .footer-above-text-4 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 340px;
+}
+/* line 635, afterSelectionPage.scss */
+.footer-above .footer-above-text-5 {
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 90px;
+}
+
+/* line 642, afterSelectionPage.scss */
+.footer {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20px;
+  width: 1190px;
+  height: 97px;
+  background-color: #303030;
+  text-align: center;
+}
+/* line 651, afterSelectionPage.scss */
+.footer .footer-text {
+  position: relative;
+  float: left;
+  left: 430px;
+  top: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #686671;
+}

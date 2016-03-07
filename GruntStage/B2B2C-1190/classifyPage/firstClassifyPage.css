@@ -1,0 +1,598 @@
+/* line 1, firstClassifyPage.scss */
+a {
+  color: #7d7d7d;
+  text-decoration: none;
+}
+
+/* line 5, firstClassifyPage.scss */
+d {
+  font-size: 20px;
+  font-weight: 200px;
+  color: #000000;
+}
+
+/* line 10, firstClassifyPage.scss */
+e {
+  position: relative;
+  float: left;
+  line-height: 30px;
+  font-size: 20px;
+  color: #c02d89;
+  font-weight: 900;
+}
+
+/* line 18, firstClassifyPage.scss */
+.header {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8px;
+  width: 1190px;
+  height: 30px;
+  background-color: #e8e8e8;
+}
+/* line 26, firstClassifyPage.scss */
+.header .header-left {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  color: #7d7d7d;
+}
+/* line 35, firstClassifyPage.scss */
+.header .header-right {
+  position: relative;
+  float: right;
+  width: 400px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+/* line 44, firstClassifyPage.scss */
+.header-below {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 112px;
+}
+/* line 50, firstClassifyPage.scss */
+.header-below .header-below-left {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 112px;
+}
+/* line 55, firstClassifyPage.scss */
+.header-below .header-below-left .ec-pic {
+  position: relative;
+  float: left;
+  top: 30px;
+  width: 74px;
+  height: 47px;
+  background-image: url(images/ec-pic.png);
+  background-repeat: no-repeat;
+}
+/* line 64, firstClassifyPage.scss */
+.header-below .header-below-left .ec-text {
+  position: relative;
+  float: left;
+  top: 40px;
+  left: 20px;
+  width: 110px;
+  height: 40px;
+}
+/* line 71, firstClassifyPage.scss */
+.header-below .header-below-left .ec-text .ec-text-top {
+  position: relative;
+  float: left;
+  font-size: x-large;
+}
+/* line 76, firstClassifyPage.scss */
+.header-below .header-below-left .ec-text .ec-text-below {
+  position: relative;
+  float: left;
+  font-size: x-small;
+}
+/* line 83, firstClassifyPage.scss */
+.header-below .header-below-middle {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30px;
+  width: 520px;
+  height: 70px;
+}
+/* line 90, firstClassifyPage.scss */
+.header-below .header-below-middle .search-engine {
+  position: relative;
+  width: 515px;
+  height: 40px;
+}
+/* line 94, firstClassifyPage.scss */
+.header-below .header-below-middle .search-engine .search-frame input {
+  width: 410px;
+  height: 32px;
+  font-size: larger;
+  border: 2px solid #e22335;
+}
+/* line 100, firstClassifyPage.scss */
+.header-below .header-below-middle .search-engine .search-button input {
+  position: absolute;
+  left: 416px;
+  top: 0;
+  width: 102px;
+  height: 38px;
+  background-color: #e22335;
+  border: 1px solid #e22335;
+  font-size: 15px;
+  color: #ffffff;
+}
+/* line 112, firstClassifyPage.scss */
+.header-below .header-below-middle .search-reminder {
+  position: relative;
+  font-size: 15px;
+  color: #acacac;
+}
+/* line 118, firstClassifyPage.scss */
+.header-below .ecstore-section-right {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 195px;
+  height: 40px;
+  background-color: #f7f7f7;
+  background-image: url(images/shopping-cart.png);
+  background-repeat: no-repeat;
+}
+/* line 127, firstClassifyPage.scss */
+.header-below .ecstore-section-right .shop-cart-text {
+  position: absolute;
+  right: 50px;
+  font-size: 15px;
+  color: #999999;
+  line-height: 40px;
+}
+/* line 134, firstClassifyPage.scss */
+.header-below .ecstore-section-right .triangle-design {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid #d5d5d5;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+/* line 146, firstClassifyPage.scss */
+.navigation-bar {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 40px;
+  background-color: #303030;
+}
+/* line 153, firstClassifyPage.scss */
+.navigation-bar .left-bar {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 39px;
+  line-height: 40px;
+  font-size: 17px;
+  color: #ffffff;
+  border-bottom: 1px solid #e22335;
+}
+/* line 162, firstClassifyPage.scss */
+.navigation-bar .left-bar:hover {
+  background-color: #e22335;
+}
+/* line 166, firstClassifyPage.scss */
+.navigation-bar .right-bar {
+  position: relative;
+  float: left;
+  width: 975px;
+  height: 40px;
+}
+/* line 171, firstClassifyPage.scss */
+.navigation-bar .right-bar .nav-block {
+  position: relative;
+  float: left;
+  top: 0;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 17px;
+  color: #ffffff;
+}
+/* line 181, firstClassifyPage.scss */
+.navigation-bar .right-bar .nav-block:hover {
+  background-color: #e22335;
+}
+
+/* line 187, firstClassifyPage.scss */
+.navigation-title {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 30px;
+  line-height: 30px;
+}
+
+/* line 195, firstClassifyPage.scss */
+.main-section {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 1190px;
+  height: 488px;
+}
+/* line 202, firstClassifyPage.scss */
+.main-section .main-section-left {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  width: 215px;
+  height: 488px;
+  background-color: #e8e8e8;
+}
+/* line 209, firstClassifyPage.scss */
+.main-section .main-section-left .category-design {
+  position: absolute;
+  top: -244px;
+  left: 215px;
+  width: 110px;
+  height: 488px;
+  background-color: #fff;
+  opacity: .5;
+  visibility: hidden;
+  z-index: 1;
+}
+/* line 219, firstClassifyPage.scss */
+.main-section .main-section-left .category-design .list-one {
+  position: relative;
+  float: left;
+  left: -30px;
+  list-style: none;
+  width: 55px;
+}
+/* line 226, firstClassifyPage.scss */
+.main-section .main-section-left .category-design .list-two {
+  position: relative;
+  float: left;
+  top: -237px;
+  right: -30px;
+  width: 55px;
+  list-style: none;
+}
+/* line 234, firstClassifyPage.scss */
+.main-section .main-section-left .category-design li {
+  position: relative;
+  float: left;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 900;
+}
+/* line 242, firstClassifyPage.scss */
+.main-section .main-section-left .main-left-box {
+  position: relative;
+  width: 215px;
+  height: 60px;
+  border-bottom: 1px solid #fff;
+  color: #7d7d7d;
+}
+/* line 248, firstClassifyPage.scss */
+.main-section .main-section-left .main-left-box .text-title {
+  position: relative;
+  float: left;
+  left: 10px;
+  top: 5px;
+  width: 215px;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 257, firstClassifyPage.scss */
+.main-section .main-section-left .main-left-box .text-title-below {
+  position: relative;
+  float: left;
+  left: 10px;
+  bottom: -10px;
+  width: 215px;
+  font-size: 13px;
+}
+/* line 265, firstClassifyPage.scss */
+.main-section .main-section-left .main-left-box:hover {
+  color: #fff;
+  background-color: #b70f7c;
+}
+/* line 268, firstClassifyPage.scss */
+.main-section .main-section-left .main-left-box:hover .category-design {
+  visibility: visible;
+}
+/* line 270, firstClassifyPage.scss */
+.main-section .main-section-left .main-left-box:hover .category-design li {
+  color: #7d7d7d;
+}
+/* line 272, firstClassifyPage.scss */
+.main-section .main-section-left .main-left-box:hover .category-design li:hover {
+  color: #b70f7c;
+}
+/* line 280, firstClassifyPage.scss */
+.main-section .main-section-middle {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  width: 740px;
+  height: 488px;
+}
+/* line 286, firstClassifyPage.scss */
+.main-section .main-section-middle .main-middle-up {
+  position: relative;
+  width: 740px;
+  height: 365px;
+  background-image: url(images/main-below-middle-pic.png);
+  background-repeat: no-repeat;
+}
+/* line 293, firstClassifyPage.scss */
+.main-section .main-section-middle .main-middle-down {
+  position: relative;
+  margin-top: 10px;
+  width: 740px;
+  height: 115px;
+}
+/* line 298, firstClassifyPage.scss */
+.main-section .main-section-middle .main-middle-down .main-down-pic-1 {
+  position: relative;
+  float: left;
+  width: 170px;
+  height: 112px;
+  background-image: url(images/images/main-middle-below-pic_01.png);
+}
+/* line 305, firstClassifyPage.scss */
+.main-section .main-section-middle .main-middle-down .main-down-pic-2 {
+  position: relative;
+  float: left;
+  width: 177px;
+  height: 112px;
+  background-image: url(images/images/main-middle-below-pic_02.png);
+}
+/* line 312, firstClassifyPage.scss */
+.main-section .main-section-middle .main-middle-down .main-down-pic-3 {
+  position: relative;
+  float: left;
+  width: 192px;
+  height: 112px;
+  background-image: url(images/images/main-middle-below-pic_03.png);
+}
+/* line 319, firstClassifyPage.scss */
+.main-section .main-section-middle .main-middle-down .main-down-pic-4 {
+  position: relative;
+  float: left;
+  width: 201px;
+  height: 112px;
+  background-image: url(images/images/main-middle-below-pic_05.png);
+}
+/* line 328, firstClassifyPage.scss */
+.main-section .main-section-right {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 488px;
+}
+/* line 333, firstClassifyPage.scss */
+.main-section .main-section-right .main-right-up {
+  position: relative;
+  width: 215px;
+  height: 365px;
+  background-image: url(images/main-below-right-pic-1.png);
+  background-repeat: no-repeat;
+}
+/* line 340, firstClassifyPage.scss */
+.main-section .main-section-right .main-right-down {
+  position: relative;
+  margin-top: 10px;
+  width: 215px;
+  height: 112px;
+  background-image: url(images/main-below-right-pic-2.png);
+  background-repeat: no-repeat;
+}
+
+/* line 350, firstClassifyPage.scss */
+.middle-section {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 1190px;
+  height: 220px;
+}
+/* line 357, firstClassifyPage.scss */
+.middle-section .middle-section-left {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  width: 215px;
+  height: 220px;
+  background-image: url(images/middle-section-pic-1.png);
+  background-repeat: no-repeat;
+}
+/* line 366, firstClassifyPage.scss */
+.middle-section .middle-section-mid {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  width: 740px;
+  height: 220px;
+  background-image: url(images/middle-section-pic-2.png);
+  background-repeat: no-repeat;
+}
+/* line 375, firstClassifyPage.scss */
+.middle-section .middle-section-right {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 220px;
+  background-image: url(images/middle-section-pic-3.png);
+  background-repeat: no-repeat;
+}
+
+/* line 384, firstClassifyPage.scss */
+.shopping-text {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 30px;
+  border-bottom: 1px solid #b70f7c;
+}
+/* line 391, firstClassifyPage.scss */
+.shopping-text .shopping-text-1 {
+  position: relative;
+  float: left;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 30px;
+  color: #7d7d7d;
+}
+/* line 399, firstClassifyPage.scss */
+.shopping-text .shopping-text-2 {
+  position: relative;
+  float: right;
+  right: 10px;
+  font-size: 15px;
+  line-height: 30px;
+  color: #7d7d7d;
+}
+
+/* line 408, firstClassifyPage.scss */
+.shopping-section {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 1190px;
+  height: 350px;
+}
+/* line 415, firstClassifyPage.scss */
+.shopping-section .shopping-left {
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  width: 215px;
+  height: 349px;
+  background-image: url(images/images/shopping-section-left.png);
+  background-repeat: no-repeat;
+}
+/* line 424, firstClassifyPage.scss */
+.shopping-section .shopping-right-pic {
+  position: relative;
+  float: left;
+  margin-right: 3px;
+  width: 238px;
+  height: 349px;
+  color: #7d7d7d;
+  background-color: #e8e8e8;
+}
+/* line 432, firstClassifyPage.scss */
+.shopping-section .shopping-right-pic:hover {
+  color: #fff;
+  background-color: #b70f7c;
+}
+/* line 436, firstClassifyPage.scss */
+.shopping-section .shopping-right-pic .shopping-pic-top {
+  position: relative;
+  float: left;
+  width: 240px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+/* line 444, firstClassifyPage.scss */
+.shopping-section .shopping-right-pic .shopping-pic-bottom {
+  position: relative;
+  float: left;
+  width: 240px;
+  height: 327px;
+  border-right: 1px solid #fff;
+}
+
+/* line 453, firstClassifyPage.scss */
+.footer-above {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 195px;
+  background-color: #f0f0f0;
+}
+/* line 460, firstClassifyPage.scss */
+.footer-above ul li {
+  list-style: none;
+  color: #888888;
+  font-size: small;
+}
+/* line 465, firstClassifyPage.scss */
+.footer-above .footer-above-text-1 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 43px;
+}
+/* line 471, firstClassifyPage.scss */
+.footer-above .footer-above-text-2 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 130px;
+}
+/* line 477, firstClassifyPage.scss */
+.footer-above .footer-above-text-3 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 240px;
+}
+/* line 483, firstClassifyPage.scss */
+.footer-above .footer-above-text-4 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 340px;
+}
+/* line 489, firstClassifyPage.scss */
+.footer-above .footer-above-text-5 {
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 90px;
+}
+
+/* line 496, firstClassifyPage.scss */
+.footer {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20px;
+  width: 1190px;
+  height: 97px;
+  background-color: #303030;
+  text-align: center;
+}
+/* line 505, firstClassifyPage.scss */
+.footer .footer-text {
+  position: relative;
+  float: left;
+  left: 430px;
+  top: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #686671;
+}
