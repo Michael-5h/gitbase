@@ -1,0 +1,341 @@
+/* line 1, register.scss */
+body {
+  background-color: #f5f5f5;
+}
+
+/* line 4, register.scss */
+c {
+  color: #aeafb1;
+}
+
+/* line 7, register.scss */
+e {
+  color: #0058a0;
+}
+
+/* line 10, register.scss */
+.header {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8px;
+  width: 1190px;
+  height: 30px;
+  background-color: #e8e8e8;
+}
+/* line 18, register.scss */
+.header a {
+  color: #7d7d7d;
+  text-decoration: none;
+}
+/* line 22, register.scss */
+.header .header-left {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  color: #7d7d7d;
+}
+/* line 31, register.scss */
+.header .header-right {
+  position: relative;
+  float: right;
+  width: 400px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+/* line 40, register.scss */
+d {
+  font-size: 20px;
+  font-weight: 200px;
+  color: #000000;
+}
+
+/* line 45, register.scss */
+.header-below {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 112px;
+  background-color: #ffffff;
+}
+/* line 52, register.scss */
+.header-below .header-below-left {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 112px;
+}
+/* line 57, register.scss */
+.header-below .header-below-left .ec-pic {
+  position: relative;
+  float: left;
+  top: 30px;
+  width: 74px;
+  height: 47px;
+  background-image: url(images/ec-pic.png);
+  background-repeat: no-repeat;
+}
+/* line 66, register.scss */
+.header-below .header-below-left .ec-text {
+  position: relative;
+  float: left;
+  top: 40px;
+  left: 20px;
+  width: 110px;
+  height: 40px;
+}
+/* line 73, register.scss */
+.header-below .header-below-left .ec-text .ec-text-top {
+  position: relative;
+  float: left;
+  font-size: x-large;
+}
+/* line 78, register.scss */
+.header-below .header-below-left .ec-text .ec-text-below {
+  position: relative;
+  float: left;
+  font-size: x-small;
+}
+/* line 85, register.scss */
+.header-below .header-below-right {
+  position: relative;
+  float: left;
+  top: 40px;
+  font-size: 25px;
+  color: #797a7c;
+}
+
+/* line 93, register.scss */
+.main-section {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  top: 30px;
+  width: 1040px;
+  height: 535px;
+  background-color: #ffffff;
+}
+/* line 102, register.scss */
+.main-section form {
+  width: 500px;
+}
+/* line 103, register.scss */
+.main-section .user-name, .main-section .password-set, .main-section .password-confirm, .main-section .code-verification {
+  position: relative;
+  float: left;
+  margin-bottom: 40px;
+  top: 40px;
+  left: 150px;
+  width: 450px;
+  height: 45px;
+}
+/* line 111, register.scss */
+.main-section .user-name .user-name-position, .main-section .password-set .user-name-position, .main-section .password-confirm .user-name-position, .main-section .code-verification .user-name-position, .main-section .password-set .password-set-position, .main-section .password-confirm .password-confirm-position, .main-section .code-verification .code-verification-text {
+  position: relative;
+  float: left;
+  width: 80px;
+  height: 20px;
+  line-height: 45px;
+  margin-right: 5px;
+}
+/* line 119, register.scss */
+.main-section .user-name input, .main-section .password-set input, .main-section .password-confirm input, .main-section .code-verification input {
+  position: relative;
+  float: left;
+  width: 345px;
+  height: 38px;
+  font-size: 15px;
+  color: #aeafb1;
+  background-image: url(images/main-right-1-pic.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+/* line 133, register.scss */
+.main-section .password-set .password-set-position {
+  left: -10px;
+}
+/* line 137, register.scss */
+.main-section .password-set input {
+  position: relative;
+  float: left;
+  width: 345px;
+  height: 38px;
+  font-size: 15px;
+  color: #aeafb1;
+  background-image: url(images/main-right-2-pic.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+/* line 151, register.scss */
+.main-section .password-confirm .password-confirm-position {
+  left: -10px;
+}
+/* line 155, register.scss */
+.main-section .password-confirm input {
+  position: relative;
+  float: left;
+  width: 345px;
+  height: 38px;
+  font-size: 15px;
+  color: #aeafb1;
+  background-image: url(images/main-right-2-pic.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+/* line 172, register.scss */
+.main-section .code-verification input {
+  position: relative;
+  float: left;
+  width: 140px;
+  height: 35px;
+  font-size: 15px;
+}
+/* line 179, register.scss */
+.main-section .code-verification .user-verification-pic {
+  position: relative;
+  float: left;
+  width: 65px;
+  height: 40px;
+  background-image: url(images/user-verification-pic.png);
+  background-repeat: no-repeat;
+}
+/* line 187, register.scss */
+.main-section .code-verification .verification-pic-change {
+  position: relative;
+  float: left;
+  left: 20px;
+}
+/* line 191, register.scss */
+.main-section .code-verification .verification-pic-change li {
+  list-style: none;
+}
+/* line 196, register.scss */
+.main-section .read-already {
+  position: relative;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  left: 235px;
+  width: 350px;
+  height: 20px;
+  font-size: 13px;
+}
+/* line 206, register.scss */
+.main-section .register-submit {
+  position: relative;
+  float: left;
+  width: 350px;
+  height: 80px;
+}
+/* line 211, register.scss */
+.main-section .register-submit .register-now {
+  position: relative;
+  float: left;
+  margin-bottom: 10px;
+  width: 350px;
+  height: 45px;
+}
+/* line 217, register.scss */
+.main-section .register-submit .register-now input {
+  position: relative;
+  left: 235px;
+  width: 345px;
+  height: 45px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #e22335;
+  border-radius: 5px;
+}
+/* line 228, register.scss */
+.main-section .register-submit .account-own {
+  position: relative;
+  margin-top: 10px;
+  left: 454px;
+  width: 125px;
+  font-size: 13px;
+}
+/* line 234, register.scss */
+.main-section .register-submit .account-own a {
+  text-decoration: none;
+}
+
+/* line 238, register.scss */
+.footer-above {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 1190px;
+  height: 195px;
+  background-color: #f0f0f0;
+}
+/* line 246, register.scss */
+.footer-above ul li {
+  list-style: none;
+  color: #888888;
+  font-size: small;
+}
+/* line 251, register.scss */
+.footer-above .footer-above-text-1 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 43px;
+}
+/* line 257, register.scss */
+.footer-above .footer-above-text-2 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 130px;
+}
+/* line 263, register.scss */
+.footer-above .footer-above-text-3 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 240px;
+}
+/* line 269, register.scss */
+.footer-above .footer-above-text-4 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 340px;
+}
+/* line 275, register.scss */
+.footer-above .footer-above-text-5 {
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 90px;
+}
+
+/* line 282, register.scss */
+.footer {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20px;
+  width: 1190px;
+  height: 97px;
+  background-color: #303030;
+  text-align: center;
+}
+/* line 291, register.scss */
+.footer .footer-text {
+  position: relative;
+  float: left;
+  left: 430px;
+  top: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #686671;
+}

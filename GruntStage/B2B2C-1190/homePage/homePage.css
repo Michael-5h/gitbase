@@ -1,0 +1,427 @@
+/* line 1, homePage.scss */
+a {
+  color: #7d7d7d;
+  text-decoration: none;
+}
+
+/* line 5, homePage.scss */
+d {
+  font-size: 20px;
+  font-weight: 200px;
+  color: #000000;
+}
+
+/* line 10, homePage.scss */
+.header {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8px;
+  width: 1190px;
+  height: 30px;
+  background-color: #e8e8e8;
+}
+/* line 18, homePage.scss */
+.header .header-left {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  color: #7d7d7d;
+}
+/* line 27, homePage.scss */
+.header .header-right {
+  position: relative;
+  float: right;
+  width: 400px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+/* line 36, homePage.scss */
+.header-below {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 112px;
+}
+/* line 42, homePage.scss */
+.header-below .header-below-left {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 112px;
+}
+/* line 47, homePage.scss */
+.header-below .header-below-left .ec-pic {
+  position: relative;
+  float: left;
+  top: 30px;
+  width: 74px;
+  height: 47px;
+  background-image: url(images/ec-pic.png);
+  background-repeat: no-repeat;
+}
+/* line 56, homePage.scss */
+.header-below .header-below-left .ec-text {
+  position: relative;
+  float: left;
+  top: 40px;
+  left: 20px;
+  width: 110px;
+  height: 40px;
+}
+/* line 63, homePage.scss */
+.header-below .header-below-left .ec-text .ec-text-top {
+  position: relative;
+  float: left;
+  font-size: x-large;
+}
+/* line 68, homePage.scss */
+.header-below .header-below-left .ec-text .ec-text-below {
+  position: relative;
+  float: left;
+  font-size: x-small;
+}
+/* line 75, homePage.scss */
+.header-below .header-below-middle {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30px;
+  width: 520px;
+  height: 70px;
+}
+/* line 82, homePage.scss */
+.header-below .header-below-middle .search-engine {
+  position: relative;
+  width: 515px;
+  height: 40px;
+}
+/* line 86, homePage.scss */
+.header-below .header-below-middle .search-engine .search-frame input {
+  width: 410px;
+  height: 32px;
+  font-size: larger;
+  border: 2px solid #e22335;
+}
+/* line 92, homePage.scss */
+.header-below .header-below-middle .search-engine .search-button input {
+  position: absolute;
+  left: 416px;
+  top: 0;
+  width: 102px;
+  height: 38px;
+  background-color: #e22335;
+  border: 1px solid #e22335;
+  font-size: 15px;
+  color: #ffffff;
+}
+/* line 104, homePage.scss */
+.header-below .header-below-middle .search-reminder {
+  position: relative;
+  font-size: 15px;
+  color: #acacac;
+}
+/* line 110, homePage.scss */
+.header-below .header-below-right {
+  position: relative;
+  float: right;
+  top: -40px;
+  width: 200px;
+  height: 45px;
+  background-color: #f7f7f7;
+}
+/* line 117, homePage.scss */
+.header-below .header-below-right .shopping-cart-pic {
+  position: relative;
+  float: left;
+  width: 50px;
+  height: 45px;
+  background-image: url(images/shopping-cart.png);
+  background-repeat: no-repeat;
+  background-position: 5px;
+}
+/* line 126, homePage.scss */
+.header-below .header-below-right .shopping-cart-text {
+  position: relative;
+  right: -5px;
+  line-height: 45px;
+  font-size: 15px;
+  color: #7d7d7d;
+}
+
+/* line 135, homePage.scss */
+.navigation-bar {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 40px;
+  background-color: #303030;
+}
+/* line 142, homePage.scss */
+.navigation-bar .left-bar {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 17px;
+  color: #ffffff;
+  border-bottom: 1px solid #e22335;
+}
+/* line 151, homePage.scss */
+.navigation-bar .left-bar:hover {
+  background-color: #e22335;
+}
+/* line 155, homePage.scss */
+.navigation-bar .right-bar {
+  position: relative;
+  float: left;
+  width: 975px;
+  height: 40px;
+}
+/* line 160, homePage.scss */
+.navigation-bar .right-bar .nav-block {
+  position: relative;
+  float: left;
+  top: -3px;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 17px;
+  color: #ffffff;
+}
+/* line 170, homePage.scss */
+.navigation-bar .right-bar .nav-block:hover {
+  background-color: #e22335;
+}
+
+/* line 176, homePage.scss */
+.navigation-below {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 400px;
+}
+/* line 182, homePage.scss */
+.navigation-below .nav-below-left {
+  position: relative;
+  float: left;
+  margin-top: -2px;
+  width: 215px;
+  height: 400px;
+}
+/* line 188, homePage.scss */
+.navigation-below .nav-below-left c {
+  float: right;
+}
+/* line 191, homePage.scss */
+.navigation-below .nav-below-left .nav-below-left0 {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 17px;
+  color: #ffffff;
+  background-color: #303030;
+}
+/* line 200, homePage.scss */
+.navigation-below .nav-below-left .nav-below-left0:hover {
+  background-color: #e22335;
+}
+/* line 205, homePage.scss */
+.navigation-below .nav-below-middle {
+  position: relative;
+  float: left;
+  margin-top: 8px;
+  margin-left: 10px;
+  width: 740px;
+  height: 390px;
+  background-image: url(images/nav-below-middle-pic.png);
+  background-repeat: no-repeat;
+}
+/* line 215, homePage.scss */
+.navigation-below .nav-below-right {
+  position: relative;
+  float: left;
+  margin-top: 8px;
+  margin-left: 8px;
+  width: 216px;
+  height: 390px;
+  background-image: url(images/nav-below-right-pic.png);
+  background-repeat: no-repeat;
+}
+
+/* line 226, homePage.scss */
+.brands-list {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 1190px;
+  height: 90px;
+}
+/* line 233, homePage.scss */
+.brands-list .brand-turn-left, .brands-list .brand-turn-right {
+  position: relative;
+  float: left;
+  width: 15px;
+  height: 90px;
+}
+/* line 239, homePage.scss */
+.brands-list .brand-sample {
+  position: relative;
+  float: left;
+  width: 144px;
+  height: 90px;
+  border-left: 1px solid #e5e5e5;
+}
+/* line 246, homePage.scss */
+.brands-list .brand-turn-right {
+  float: right;
+}
+
+/* line 251, homePage.scss */
+.first-floor, .third-floor, .fourth-floor {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 1190px;
+  height: 330px;
+}
+/* line 258, homePage.scss */
+.first-floor .first-floor-1, .third-floor .first-floor-1, .fourth-floor .first-floor-1, .third-floor .third-floor-1, .fourth-floor .fourth-floor-1 {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 330px;
+}
+/* line 263, homePage.scss */
+.first-floor .first-floor-1 .first-floor-1-1, .third-floor .first-floor-1 .first-floor-1-1, .fourth-floor .first-floor-1 .first-floor-1-1, .third-floor .third-floor-1 .first-floor-1-1, .fourth-floor .fourth-floor-1 .first-floor-1-1, .third-floor .third-floor-1 .third-floor-1-1, .fourth-floor .fourth-floor-1 .fourth-floor-1-1 {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 35px;
+}
+/* line 269, homePage.scss */
+.first-floor .first-floor-1 .first-floor-1-2, .third-floor .first-floor-1 .first-floor-1-2, .fourth-floor .first-floor-1 .first-floor-1-2, .third-floor .third-floor-1 .first-floor-1-2, .fourth-floor .fourth-floor-1 .first-floor-1-2, .third-floor .third-floor-1 .third-floor-1-2, .fourth-floor .fourth-floor-1 .fourth-floor-1-2 {
+  position: relative;
+  float: left;
+  width: 215px;
+  height: 295px;
+}
+/* line 276, homePage.scss */
+.first-floor .first-floor-2, .third-floor .first-floor-2, .fourth-floor .first-floor-2, .first-floor .first-floor-3, .third-floor .first-floor-3, .fourth-floor .first-floor-3, .third-floor .third-floor-2, .third-floor .third-floor-3, .fourth-floor .fourth-floor-2, .fourth-floor .fourth-floor-3 {
+  position: relative;
+  float: left;
+  margin-left: 10px;
+  width: 290px;
+  height: 329px;
+  border-top: 1px solid #4e9ff0;
+}
+/* line 284, homePage.scss */
+.first-floor .first-floor-3, .third-floor .first-floor-3, .fourth-floor .first-floor-3 {
+  width: 215px;
+}
+
+/* line 300, homePage.scss */
+.third-floor .third-floor-2, .third-floor .third-floor-3 {
+  border-top: 1px solid #a05ea8;
+}
+/* line 304, homePage.scss */
+.third-floor .third-floor-3 {
+  width: 215px;
+}
+
+/* line 321, homePage.scss */
+.fourth-floor .fourth-floor-2, .fourth-floor .fourth-floor-3 {
+  border-top: 1px solid #fab81c;
+}
+/* line 325, homePage.scss */
+.fourth-floor .fourth-floor-3 {
+  width: 215px;
+}
+
+/* line 331, homePage.scss */
+.footer-above {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 1190px;
+  height: 195px;
+  background-color: #f0f0f0;
+}
+/* line 339, homePage.scss */
+.footer-above ul li {
+  list-style: none;
+  color: #888888;
+  font-size: small;
+}
+/* line 344, homePage.scss */
+.footer-above .footer-above-text-1 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 43px;
+}
+/* line 350, homePage.scss */
+.footer-above .footer-above-text-2 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 130px;
+}
+/* line 356, homePage.scss */
+.footer-above .footer-above-text-3 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 240px;
+}
+/* line 362, homePage.scss */
+.footer-above .footer-above-text-4 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 340px;
+}
+/* line 368, homePage.scss */
+.footer-above .footer-above-text-5 {
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 90px;
+}
+
+/* line 375, homePage.scss */
+.footer {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20px;
+  width: 1190px;
+  height: 97px;
+  background-color: #303030;
+  text-align: center;
+}
+/* line 384, homePage.scss */
+.footer .footer-text {
+  position: relative;
+  float: left;
+  left: 430px;
+  top: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #686671;
+}

@@ -1,0 +1,407 @@
+/* line 1, storeHomePage.scss */
+a {
+  color: #7d7d7d;
+  text-decoration: none;
+}
+
+/* line 5, storeHomePage.scss */
+d {
+  font-size: 20px;
+  font-weight: 200px;
+  color: #000000;
+}
+
+/* line 10, storeHomePage.scss */
+.header {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 25px;
+  font-size: 15px;
+  color: #999999;
+  background-color: #e8e8e8;
+}
+/* line 19, storeHomePage.scss */
+.header .header-left {
+  position: relative;
+  float: left;
+}
+/* line 23, storeHomePage.scss */
+.header .header-right {
+  position: relative;
+  float: right;
+}
+
+/* line 28, storeHomePage.scss */
+.ecstore-section {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 85px;
+  border-bottom: 1px solid #e8e8e8;
+}
+/* line 35, storeHomePage.scss */
+.ecstore-section .ecstore-section-left {
+  position: relative;
+  float: left;
+  top: 20px;
+  height: 85px;
+  background-image: url(images/ec-pic.png);
+  background-repeat: no-repeat;
+}
+/* line 42, storeHomePage.scss */
+.ecstore-section .ecstore-section-left .position-left-1 {
+  position: relative;
+  float: left;
+  left: 90px;
+  top: 10px;
+  font-size: 30px;
+  color: #999999;
+}
+/* line 50, storeHomePage.scss */
+.ecstore-section .ecstore-section-left .position-left-2 {
+  position: relative;
+  float: left;
+  top: 40px;
+  left: -5px;
+  font-size: 12px;
+  color: #999999;
+}
+/* line 59, storeHomePage.scss */
+.ecstore-section .ecstore-section-middle {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20px;
+  width: 615px;
+  height: 65px;
+}
+/* line 66, storeHomePage.scss */
+.ecstore-section .ecstore-section-middle .search-box input {
+  position: relative;
+  float: left;
+  width: 406px;
+  height: 29px;
+  border: 2px	solid #e22335;
+  border-right: 0;
+}
+/* line 74, storeHomePage.scss */
+.ecstore-section .ecstore-section-middle .search-in-all input {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 35px;
+  font-size: 15px;
+  color: #ffffff;
+  border: 1px solid #e22335;
+  background-color: #e22335;
+}
+/* line 84, storeHomePage.scss */
+.ecstore-section .ecstore-section-middle .search-in-shop input {
+  position: relative;
+  float: left;
+  margin-left: 1px;
+  width: 100px;
+  height: 35px;
+  font-size: 15px;
+  color: #ffffff;
+  border: 1px solid #303030;
+  background-color: #303030;
+}
+/* line 95, storeHomePage.scss */
+.ecstore-section .ecstore-section-middle .search-box-below {
+  position: relative;
+  float: left;
+  margin-top: 3px;
+  font-size: 15px;
+}
+/* line 102, storeHomePage.scss */
+.ecstore-section .ecstore-section-right {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  width: 195px;
+  height: 40px;
+  background-color: #f7f7f7;
+  background-image: url(images/shopping-cart.png);
+  background-repeat: no-repeat;
+}
+/* line 111, storeHomePage.scss */
+.ecstore-section .ecstore-section-right .shop-cart-text {
+  position: absolute;
+  right: 50px;
+  font-size: 15px;
+  color: #999999;
+  line-height: 40px;
+}
+/* line 118, storeHomePage.scss */
+.ecstore-section .ecstore-section-right .triangle-design {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid #d5d5d5;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+/* line 130, storeHomePage.scss */
+.brand-section {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 100px;
+}
+/* line 136, storeHomePage.scss */
+.brand-section .brand-design {
+  position: relative;
+  float: left;
+  line-height: 100px;
+  font-size: 60px;
+  font-weight: 600;
+}
+/* line 143, storeHomePage.scss */
+.brand-section .circle-r {
+  position: relative;
+  float: left;
+  top: 58px;
+  left: -5px;
+  width: 10px;
+  height: 10px;
+  font-size: 10px;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+/* line 155, storeHomePage.scss */
+.brand-section .brand-text-design {
+  position: absolute;
+  top: 75px;
+  left: 5px;
+  font-size: 15px;
+}
+
+/* line 162, storeHomePage.scss */
+.nav-bar {
+  position: relative;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 40px;
+  background-color: #303030;
+}
+/* line 170, storeHomePage.scss */
+.nav-bar .nav-bar-text {
+  position: relative;
+  float: left;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 15px;
+  color: #ffffff;
+}
+/* line 179, storeHomePage.scss */
+.nav-bar .nav-bar-text:hover {
+  background-color: #e22335;
+}
+
+/* line 184, storeHomePage.scss */
+.classify-shop {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 55px;
+  line-height: 55px;
+}
+/* line 191, storeHomePage.scss */
+.classify-shop .classify-all {
+  position: relative;
+  float: left;
+  font-size: 15px;
+  color: #999999;
+}
+/* line 197, storeHomePage.scss */
+.classify-shop .classify-search {
+  position: relative;
+  float: right;
+  width: 170px;
+  height: 25px;
+}
+/* line 202, storeHomePage.scss */
+.classify-shop .classify-search .classify-search-text {
+  width: 166px;
+  height: 25px;
+  border: 1px solid #b4b2b3;
+}
+/* line 207, storeHomePage.scss */
+.classify-shop .classify-search .classify-search-btn {
+  position: relative;
+  float: right;
+  top: -36px;
+  right: 4px;
+  width: 22px;
+  height: 17px;
+  border: 0;
+  background-image: url(images/classify-search-pic.png);
+  background-repeat: no-repeat;
+}
+
+/* line 220, storeHomePage.scss */
+.search-below-section {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 380px;
+  background-image: url(images/search-below-pic.png);
+  background-repeat: no-repeat;
+}
+
+/* line 229, storeHomePage.scss */
+.hot-sale-section {
+  position: relative;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  color: #999999;
+  background-color: #e8e8e8;
+}
+
+/* line 241, storeHomePage.scss */
+.demo-position {
+  position: relative;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 836px;
+  background-color: #f5f5f5;
+}
+/* line 249, storeHomePage.scss */
+.demo-position .demo-position-pic-1 {
+  position: relative;
+  float: left;
+  margin-top: 10px;
+  width: 290px;
+  height: 420px;
+  background-image: url(images/images/demo-pic_01.png);
+  background-repeat: no-repeat;
+}
+/* line 258, storeHomePage.scss */
+.demo-position .demo-position-pic-2 {
+  position: relative;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 290px;
+  height: 420px;
+  background-image: url(images/images/demo-pic_03.png);
+  background-repeat: no-repeat;
+}
+/* line 268, storeHomePage.scss */
+.demo-position .demo-position-pic-3 {
+  position: relative;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+  width: 290px;
+  height: 420px;
+  background-image: url(images/images/demo-pic_05.png);
+  background-repeat: no-repeat;
+}
+/* line 279, storeHomePage.scss */
+.demo-position .demo-position-pic-4 {
+  position: relative;
+  float: left;
+  margin-top: 10px;
+  margin-left: 11px;
+  width: 289px;
+  height: 420px;
+  background-image: url(images/images/demo-pic_07.png);
+  background-repeat: no-repeat;
+}
+
+/* line 290, storeHomePage.scss */
+.footer-above {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1190px;
+  height: 195px;
+  background-color: #f0f0f0;
+}
+/* line 297, storeHomePage.scss */
+.footer-above ul li {
+  list-style: none;
+  color: #888888;
+  font-size: small;
+}
+/* line 302, storeHomePage.scss */
+.footer-above .footer-above-text-1 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 43px;
+}
+/* line 308, storeHomePage.scss */
+.footer-above .footer-above-text-2 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 130px;
+}
+/* line 314, storeHomePage.scss */
+.footer-above .footer-above-text-3 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 240px;
+}
+/* line 320, storeHomePage.scss */
+.footer-above .footer-above-text-4 {
+  position: relative;
+  float: left;
+  top: 20px;
+  left: 340px;
+}
+/* line 326, storeHomePage.scss */
+.footer-above .footer-above-text-5 {
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 90px;
+}
+
+/* line 333, storeHomePage.scss */
+.footer {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20px;
+  width: 1190px;
+  height: 97px;
+  background-color: #303030;
+  text-align: center;
+}
+/* line 342, storeHomePage.scss */
+.footer .footer-text {
+  position: relative;
+  float: left;
+  left: 430px;
+  top: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #686671;
+}
